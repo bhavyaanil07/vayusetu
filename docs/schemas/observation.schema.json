@@ -1,0 +1,153 @@
+{
+  "description": "One sensor reading (hourly mean). Compatible with OGC SensorThings 'Observation' concepts.",
+  "properties": {
+    "sensor_id": {
+      "examples": [
+        "DEL-0123"
+      ],
+      "title": "Sensor Id",
+      "type": "string"
+    },
+    "time": {
+      "description": "End of the averaging hour, ISO 8601 with offset (IST = +05:30)",
+      "format": "date-time",
+      "title": "Time",
+      "type": "string"
+    },
+    "lat": {
+      "maximum": 90,
+      "minimum": -90,
+      "title": "Lat",
+      "type": "number"
+    },
+    "lon": {
+      "maximum": 180,
+      "minimum": -180,
+      "title": "Lon",
+      "type": "number"
+    },
+    "pm25": {
+      "description": "PM2.5, \u00b5g/m\u00b3",
+      "maximum": 2000,
+      "minimum": 0,
+      "title": "Pm25",
+      "type": "number"
+    },
+    "pm10": {
+      "anyOf": [
+        {
+          "maximum": 3000,
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "PM10, \u00b5g/m\u00b3",
+      "title": "Pm10"
+    },
+    "co": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Carbon monoxide, mg/m\u00b3",
+      "title": "Co"
+    },
+    "no2": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Nitrogen dioxide, \u00b5g/m\u00b3",
+      "title": "No2"
+    },
+    "rh": {
+      "anyOf": [
+        {
+          "maximum": 100,
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Relative humidity, %",
+      "title": "Rh"
+    },
+    "temp": {
+      "anyOf": [
+        {
+          "maximum": 60,
+          "minimum": -30,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Air temperature, \u00b0C",
+      "title": "Temp"
+    },
+    "sensor_model": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "examples": [
+        "SDS011"
+      ],
+      "title": "Sensor Model"
+    },
+    "calibrated": {
+      "default": false,
+      "description": "True if humidity/bias correction was already applied",
+      "title": "Calibrated",
+      "type": "boolean"
+    },
+    "quality_flag": {
+      "default": "ok",
+      "enum": [
+        "ok",
+        "offline",
+        "stuck",
+        "suspect-drift"
+      ],
+      "title": "Quality Flag",
+      "type": "string"
+    }
+  },
+  "required": [
+    "sensor_id",
+    "time",
+    "lat",
+    "lon",
+    "pm25"
+  ],
+  "title": "Observation",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vayusetu:schema:observation:v1"
+}

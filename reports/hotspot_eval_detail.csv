@@ -1,0 +1,904 @@
+time,type,matched,event,event_kind,pred_kind,confidence,detected,detected_conf,start
+2019-10-24 00:00:00,hotspot,True,DEL-1023-4,burning,burning,0.4719982750725709,,,
+2019-10-24 00:00:00,hotspot,True,DEL-1023-2,traffic,industrial,0.4214942559291449,,,
+2019-10-24 04:00:00,hotspot,False,,,industrial,0.19458682027275223,,,
+2019-10-24 04:00:00,hotspot,False,,,industrial,0.16774592477991923,,,
+2019-10-24 08:00:00,active_event,,DEL-1024-1,dust,,,False,False,2019-10-24 08:00:00
+2019-10-24 10:00:00,hotspot,True,DEL-1024-1,dust,dust,0.8956687768809987,,,
+2019-10-24 10:00:00,active_event,,DEL-1024-1,dust,,,True,True,2019-10-24 08:00:00
+2019-10-24 12:00:00,hotspot,True,DEL-1024-1,dust,dust,0.8812557416068465,,,
+2019-10-24 12:00:00,hotspot,False,,,traffic,0.1651911986164557,,,
+2019-10-24 12:00:00,active_event,,DEL-1024-1,dust,,,True,True,2019-10-24 08:00:00
+2019-10-24 14:00:00,hotspot,True,DEL-1024-1,dust,dust,0.43075776285420947,,,
+2019-10-24 14:00:00,hotspot,True,DEL-1024-1,dust,dust,0.4745006304563618,,,
+2019-10-24 14:00:00,active_event,,DEL-1024-1,dust,,,True,False,2019-10-24 08:00:00
+2019-10-24 18:00:00,hotspot,True,DEL-1024-3,traffic,traffic,0.8754466418125836,,,
+2019-10-24 18:00:00,hotspot,True,DEL-S05,traffic,traffic,0.5646798804958608,,,
+2019-10-24 18:00:00,active_event,,DEL-S05,traffic,,,True,False,2019-10-24 00:00:00
+2019-10-24 18:00:00,active_event,,DEL-1024-3,traffic,,,True,True,2019-10-24 17:00:00
+2019-10-24 20:00:00,hotspot,True,DEL-1024-3,traffic,traffic,0.9478464369215823,,,
+2019-10-24 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.7155955522009564,,,
+2019-10-24 20:00:00,hotspot,True,DEL-1024-2,burning,burning,0.4038116858107622,,,
+2019-10-24 20:00:00,hotspot,False,,,burning,0.2792329520424153,,,
+2019-10-24 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-10-24 20:00:00,active_event,,DEL-1024-2,burning,,,True,False,2019-10-24 19:00:00
+2019-10-24 20:00:00,active_event,,DEL-1024-3,traffic,,,True,True,2019-10-24 17:00:00
+2019-10-24 22:00:00,hotspot,True,DEL-1024-3,traffic,burning,0.9502634884414434,,,
+2019-10-24 22:00:00,hotspot,True,DEL-1024-2,burning,burning,0.9820137900379085,,,
+2019-10-24 22:00:00,hotspot,False,,,burning,0.2181313761460592,,,
+2019-10-24 22:00:00,active_event,,DEL-1024-2,burning,,,True,True,2019-10-24 19:00:00
+2019-10-24 22:00:00,active_event,,DEL-1024-3,traffic,,,True,True,2019-10-24 17:00:00
+2019-10-25 00:00:00,hotspot,True,DEL-1024-2,burning,burning,0.9217966639223717,,,
+2019-10-25 00:00:00,hotspot,True,DEL-1024-3,traffic,burning,0.3800303199087975,,,
+2019-10-25 00:00:00,hotspot,False,,,industrial,0.2796503391709009,,,
+2019-10-25 00:00:00,hotspot,False,,,industrial,0.20698448128812838,,,
+2019-10-25 04:00:00,hotspot,False,,,industrial,0.17217128065347517,,,
+2019-10-25 08:00:00,active_event,,DEL-1025-5,dust,,,False,False,2019-10-25 08:00:00
+2019-10-25 10:00:00,hotspot,True,DEL-1025-5,dust,dust,0.9568927450589139,,,
+2019-10-25 10:00:00,active_event,,DEL-1025-5,dust,,,True,True,2019-10-25 08:00:00
+2019-10-25 12:00:00,hotspot,True,DEL-1025-5,dust,dust,0.9370266439430035,,,
+2019-10-25 12:00:00,hotspot,False,,,burning,0.19193679908166894,,,
+2019-10-25 12:00:00,active_event,,DEL-1025-5,dust,,,True,True,2019-10-25 08:00:00
+2019-10-25 14:00:00,hotspot,True,DEL-1025-5,dust,dust,0.9241418199787566,,,
+2019-10-25 14:00:00,active_event,,DEL-1025-5,dust,,,True,True,2019-10-25 08:00:00
+2019-10-25 16:00:00,hotspot,True,DEL-1025-5,dust,dust,0.9002495108803148,,,
+2019-10-25 16:00:00,active_event,,DEL-1025-5,dust,,,True,True,2019-10-25 08:00:00
+2019-10-25 18:00:00,active_event,,DEL-S05,traffic,,,False,False,2019-10-24 00:00:00
+2019-10-25 18:00:00,active_event,,DEL-1025-1,traffic,,,False,False,2019-10-25 17:00:00
+2019-10-25 18:00:00,active_event,,DEL-1025-3,traffic,,,False,False,2019-10-25 17:00:00
+2019-10-25 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.6008384243743344,,,
+2019-10-25 20:00:00,hotspot,True,DEL-1025-1,traffic,burning,0.8081309207441069,,,
+2019-10-25 20:00:00,hotspot,True,DEL-1025-1,traffic,industrial,0.5107328738730259,,,
+2019-10-25 20:00:00,hotspot,True,DEL-1025-3,traffic,traffic,0.39777211505003135,,,
+2019-10-25 20:00:00,hotspot,True,DEL-1025-1,traffic,burning,0.5158421596664543,,,
+2019-10-25 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-10-25 20:00:00,active_event,,DEL-1025-1,traffic,,,True,True,2019-10-25 17:00:00
+2019-10-25 20:00:00,active_event,,DEL-1025-3,traffic,,,True,False,2019-10-25 17:00:00
+2019-10-25 22:00:00,hotspot,True,DEL-1025-3,traffic,traffic,0.6165765906814099,,,
+2019-10-25 22:00:00,hotspot,True,DEL-1025-1,traffic,burning,0.8132257261348911,,,
+2019-10-25 22:00:00,hotspot,True,DEL-1025-1,traffic,traffic,0.5436058424136878,,,
+2019-10-25 22:00:00,hotspot,True,DEL-1025-1,traffic,burning,0.5759878084660314,,,
+2019-10-25 22:00:00,active_event,,DEL-1025-1,traffic,,,True,True,2019-10-25 17:00:00
+2019-10-25 22:00:00,active_event,,DEL-1025-3,traffic,,,True,True,2019-10-25 17:00:00
+2019-10-26 02:00:00,hotspot,False,,,industrial,0.19465604455996258,,,
+2019-10-26 18:00:00,hotspot,True,DEL-1026-2,burning,burning,0.4905725968095194,,,
+2019-10-26 18:00:00,hotspot,True,DEL-1026-1,traffic,traffic,0.32509119217008414,,,
+2019-10-26 18:00:00,active_event,,DEL-S05,traffic,,,False,False,2019-10-24 00:00:00
+2019-10-26 18:00:00,active_event,,DEL-1026-1,traffic,,,True,False,2019-10-26 17:00:00
+2019-10-26 18:00:00,active_event,,DEL-1026-2,burning,,,True,False,2019-10-26 17:00:00
+2019-10-26 20:00:00,hotspot,True,DEL-1026-2,burning,burning,0.6635319257541027,,,
+2019-10-26 20:00:00,hotspot,True,DEL-1026-1,traffic,burning,0.57964343212185,,,
+2019-10-26 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.45041691395968,,,
+2019-10-26 20:00:00,hotspot,True,DEL-1026-1,traffic,industrial,0.4414953641015814,,,
+2019-10-26 20:00:00,active_event,,DEL-S02,industrial,,,False,False,2019-10-26 20:00:00
+2019-10-26 20:00:00,active_event,,DEL-S05,traffic,,,True,False,2019-10-24 00:00:00
+2019-10-26 20:00:00,active_event,,DEL-1026-1,traffic,,,True,False,2019-10-26 17:00:00
+2019-10-26 20:00:00,active_event,,DEL-1026-2,burning,,,True,True,2019-10-26 17:00:00
+2019-10-26 20:00:00,active_event,,DEL-1026-3,burning,,,False,False,2019-10-26 20:00:00
+2019-10-26 22:00:00,hotspot,True,DEL-1026-3,burning,burning,0.9568927450589139,,,
+2019-10-26 22:00:00,hotspot,True,DEL-S02,industrial,industrial,0.8034068915225842,,,
+2019-10-26 22:00:00,hotspot,True,DEL-1026-1,traffic,burning,0.5069364265137895,,,
+2019-10-26 22:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-26 22:00:00,active_event,,DEL-1026-1,traffic,,,True,False,2019-10-26 17:00:00
+2019-10-26 22:00:00,active_event,,DEL-1026-3,burning,,,True,True,2019-10-26 20:00:00
+2019-10-27 00:00:00,hotspot,True,DEL-1026-3,burning,burning,0.9890130573694068,,,
+2019-10-27 00:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9370266439430035,,,
+2019-10-27 00:00:00,hotspot,False,,,industrial,0.2628775930088358,,,
+2019-10-27 00:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-27 00:00:00,active_event,,DEL-1026-3,burning,,,True,True,2019-10-26 20:00:00
+2019-10-27 02:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9210639008748638,,,
+2019-10-27 02:00:00,hotspot,True,DEL-1026-3,burning,burning,0.9718532126938192,,,
+2019-10-27 02:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-27 04:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9677045353015495,,,
+2019-10-27 04:00:00,hotspot,False,,,industrial,0.3155865913890091,,,
+2019-10-27 04:00:00,hotspot,False,,,industrial,0.23365821977811693,,,
+2019-10-27 04:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-27 06:00:00,hotspot,False,,,industrial,0.22398287741076126,,,
+2019-10-27 08:00:00,active_event,,DEL-1027-3,dust,,,False,False,2019-10-27 08:00:00
+2019-10-27 10:00:00,hotspot,True,DEL-1027-3,dust,dust,0.9568927450589139,,,
+2019-10-27 10:00:00,hotspot,True,DEL-1027-3,dust,industrial,0.786797922535628,,,
+2019-10-27 10:00:00,hotspot,False,,,industrial,0.17125969785925005,,,
+2019-10-27 10:00:00,active_event,,DEL-1027-3,dust,,,True,True,2019-10-27 08:00:00
+2019-10-27 12:00:00,hotspot,True,DEL-1027-3,dust,dust,0.973403006423134,,,
+2019-10-27 12:00:00,hotspot,True,DEL-1027-3,dust,industrial,0.46658968014627833,,,
+2019-10-27 12:00:00,active_event,,DEL-1027-3,dust,,,True,True,2019-10-27 08:00:00
+2019-10-27 14:00:00,hotspot,True,DEL-1027-3,dust,dust,0.991422514586288,,,
+2019-10-27 14:00:00,active_event,,DEL-1027-3,dust,,,True,True,2019-10-27 08:00:00
+2019-10-27 16:00:00,hotspot,True,DEL-1027-3,dust,dust,0.991422514586288,,,
+2019-10-27 16:00:00,active_event,,DEL-1027-3,dust,,,True,True,2019-10-27 08:00:00
+2019-10-27 18:00:00,hotspot,True,DEL-S05,traffic,traffic,0.8175744761936437,,,
+2019-10-27 18:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-10-27 18:00:00,active_event,,DEL-1027-2,traffic,,,True,True,2019-10-27 17:00:00
+2019-10-27 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.8807970779778823,,,
+2019-10-27 20:00:00,hotspot,True,DEL-S02,industrial,industrial,0.32425192952509385,,,
+2019-10-27 20:00:00,active_event,,DEL-S02,industrial,,,True,False,2019-10-26 20:00:00
+2019-10-27 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-10-27 20:00:00,active_event,,DEL-1027-2,traffic,,,True,True,2019-10-27 17:00:00
+2019-10-27 22:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9340109905087812,,,
+2019-10-27 22:00:00,hotspot,True,DEL-S05,traffic,traffic,0.8264832617440209,,,
+2019-10-27 22:00:00,hotspot,False,,,industrial,0.30789793531243387,,,
+2019-10-27 22:00:00,hotspot,False,,,industrial,0.10961916369269366,,,
+2019-10-27 22:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-27 22:00:00,active_event,,DEL-1027-2,traffic,,,True,True,2019-10-27 17:00:00
+2019-10-28 00:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9193394642442786,,,
+2019-10-28 00:00:00,hotspot,False,,,industrial,0.29316793306389166,,,
+2019-10-28 00:00:00,hotspot,False,,,industrial,0.24414035315430294,,,
+2019-10-28 00:00:00,hotspot,False,,,industrial,0.1784575716073408,,,
+2019-10-28 00:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-28 02:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9459851382232964,,,
+2019-10-28 02:00:00,hotspot,False,,,industrial,0.3493337954824556,,,
+2019-10-28 02:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-28 04:00:00,hotspot,True,DEL-S02,industrial,industrial,0.8376695033846945,,,
+2019-10-28 04:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-28 06:00:00,hotspot,False,,,industrial,0.4301801187974784,,,
+2019-10-28 06:00:00,hotspot,False,,,industrial,0.2471210071885542,,,
+2019-10-28 06:00:00,hotspot,False,,,burning,0.1842084250451076,,,
+2019-10-28 08:00:00,hotspot,False,,,industrial,0.3202463078493693,,,
+2019-10-28 10:00:00,hotspot,True,DEL-1028-3,dust,burning,0.5335010552351811,,,
+2019-10-28 10:00:00,hotspot,False,,,industrial,0.4740528145194847,,,
+2019-10-28 10:00:00,active_event,,DEL-1028-3,dust,,,True,False,2019-10-28 09:00:00
+2019-10-28 12:00:00,hotspot,True,DEL-1028-3,dust,dust,0.9453186827840592,,,
+2019-10-28 12:00:00,active_event,,DEL-1028-3,dust,,,True,True,2019-10-28 09:00:00
+2019-10-28 14:00:00,hotspot,True,DEL-1028-3,dust,dust,0.9129342275597286,,,
+2019-10-28 14:00:00,active_event,,DEL-1028-3,dust,,,True,True,2019-10-28 09:00:00
+2019-10-28 16:00:00,hotspot,True,DEL-1028-3,dust,dust,0.9791636554813196,,,
+2019-10-28 16:00:00,hotspot,True,DEL-1028-3,dust,dust,0.40881365323382673,,,
+2019-10-28 16:00:00,active_event,,DEL-1028-3,dust,,,True,True,2019-10-28 09:00:00
+2019-10-28 18:00:00,hotspot,True,DEL-1028-3,dust,dust,0.8506285083428351,,,
+2019-10-28 18:00:00,hotspot,True,DEL-S05,traffic,traffic,0.29373808259104206,,,
+2019-10-28 18:00:00,hotspot,True,DEL-1028-1,traffic,traffic,0.2700523942318163,,,
+2019-10-28 18:00:00,active_event,,DEL-S05,traffic,,,True,False,2019-10-24 00:00:00
+2019-10-28 18:00:00,active_event,,DEL-1028-1,traffic,,,True,False,2019-10-28 17:00:00
+2019-10-28 18:00:00,active_event,,DEL-1028-2,burning,,,False,False,2019-10-28 18:00:00
+2019-10-28 20:00:00,hotspot,True,DEL-1028-2,burning,burning,0.9820137900379085,,,
+2019-10-28 20:00:00,hotspot,True,DEL-1028-1,traffic,traffic,0.7085916301503001,,,
+2019-10-28 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.5855530889776723,,,
+2019-10-28 20:00:00,hotspot,True,DEL-S02,industrial,industrial,0.3164556465857306,,,
+2019-10-28 20:00:00,active_event,,DEL-S02,industrial,,,True,False,2019-10-26 20:00:00
+2019-10-28 20:00:00,active_event,,DEL-S05,traffic,,,True,False,2019-10-24 00:00:00
+2019-10-28 20:00:00,active_event,,DEL-1028-1,traffic,,,True,True,2019-10-28 17:00:00
+2019-10-28 20:00:00,active_event,,DEL-1028-2,burning,,,True,True,2019-10-28 18:00:00
+2019-10-28 22:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9002495108803148,,,
+2019-10-28 22:00:00,hotspot,True,DEL-1028-2,burning,burning,0.9725806658492345,,,
+2019-10-28 22:00:00,hotspot,True,DEL-1028-1,traffic,traffic,0.5531173103469271,,,
+2019-10-28 22:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-28 22:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-10-28 22:00:00,active_event,,DEL-1028-1,traffic,,,True,False,2019-10-28 17:00:00
+2019-10-28 22:00:00,active_event,,DEL-1028-2,burning,,,True,True,2019-10-28 18:00:00
+2019-10-29 00:00:00,hotspot,True,DEL-S03,industrial,industrial,0.9661048358408219,,,
+2019-10-29 00:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9370266439430035,,,
+2019-10-29 00:00:00,hotspot,True,DEL-1028-2,burning,burning,0.8419446347462961,,,
+2019-10-29 00:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-29 00:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-10-29 02:00:00,hotspot,True,DEL-S02,industrial,industrial,0.942680177161778,,,
+2019-10-29 02:00:00,hotspot,True,DEL-S03,industrial,industrial,0.9791636554813196,,,
+2019-10-29 02:00:00,hotspot,False,,,industrial,0.31015214986565814,,,
+2019-10-29 02:00:00,hotspot,False,,,industrial,0.2596217112988375,,,
+2019-10-29 02:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-29 02:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-10-29 04:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9502634884414434,,,
+2019-10-29 04:00:00,hotspot,True,DEL-S03,industrial,industrial,0.7113016781691759,,,
+2019-10-29 04:00:00,hotspot,True,DEL-S03,industrial,industrial,0.5283243585168278,,,
+2019-10-29 04:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-29 06:00:00,hotspot,True,DEL-S02,industrial,industrial,0.17219201348141905,,,
+2019-10-29 08:00:00,hotspot,False,,,burning,0.3138504515334926,,,
+2019-10-29 08:00:00,active_event,,DEL-1029-2,dust,,,False,False,2019-10-29 08:00:00
+2019-10-29 08:00:00,active_event,,DEL-1029-4,dust,,,False,False,2019-10-29 08:00:00
+2019-10-29 10:00:00,hotspot,True,DEL-1029-4,dust,dust,0.9002495108803148,,,
+2019-10-29 10:00:00,hotspot,True,DEL-1029-2,dust,traffic,0.6725110536860693,,,
+2019-10-29 10:00:00,active_event,,DEL-1029-2,dust,,,True,True,2019-10-29 08:00:00
+2019-10-29 10:00:00,active_event,,DEL-1029-4,dust,,,True,True,2019-10-29 08:00:00
+2019-10-29 10:00:00,active_event,,DEL-1029-5,dust,,,False,False,2019-10-29 10:00:00
+2019-10-29 12:00:00,hotspot,True,DEL-1029-2,dust,dust,0.973403006423134,,,
+2019-10-29 12:00:00,hotspot,True,DEL-1029-5,dust,dust,0.3712476025840878,,,
+2019-10-29 12:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-29 12:00:00,active_event,,DEL-1029-2,dust,,,True,True,2019-10-29 08:00:00
+2019-10-29 12:00:00,active_event,,DEL-1029-4,dust,,,True,True,2019-10-29 08:00:00
+2019-10-29 12:00:00,active_event,,DEL-1029-5,dust,,,True,False,2019-10-29 10:00:00
+2019-10-29 14:00:00,hotspot,True,DEL-1029-2,dust,dust,0.9791636554813196,,,
+2019-10-29 14:00:00,hotspot,True,DEL-1029-5,dust,dust,0.5684088620387573,,,
+2019-10-29 14:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-29 14:00:00,active_event,,DEL-1029-2,dust,,,True,True,2019-10-29 08:00:00
+2019-10-29 14:00:00,active_event,,DEL-1029-4,dust,,,True,True,2019-10-29 08:00:00
+2019-10-29 14:00:00,active_event,,DEL-1029-5,dust,,,True,False,2019-10-29 10:00:00
+2019-10-29 16:00:00,hotspot,True,DEL-1029-2,dust,dust,0.9791636554813196,,,
+2019-10-29 16:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-29 16:00:00,active_event,,DEL-1029-2,dust,,,True,True,2019-10-29 08:00:00
+2019-10-29 16:00:00,active_event,,DEL-1029-4,dust,,,True,True,2019-10-29 08:00:00
+2019-10-29 16:00:00,active_event,,DEL-1029-5,dust,,,False,False,2019-10-29 10:00:00
+2019-10-29 18:00:00,hotspot,True,DEL-S01,burning,burning,0.9791636554813196,,,
+2019-10-29 18:00:00,hotspot,True,DEL-1029-1,burning,burning,0.5238611368863043,,,
+2019-10-29 18:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-29 18:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-10-29 18:00:00,active_event,,DEL-1029-1,burning,,,True,False,2019-10-29 17:00:00
+2019-10-29 20:00:00,hotspot,True,DEL-S01,burning,burning,0.9791636554813196,,,
+2019-10-29 20:00:00,hotspot,True,DEL-1029-1,burning,burning,0.9046922324736546,,,
+2019-10-29 20:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-29 20:00:00,active_event,,DEL-S02,industrial,,,False,False,2019-10-26 20:00:00
+2019-10-29 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-10-29 20:00:00,active_event,,DEL-1029-1,burning,,,True,True,2019-10-29 17:00:00
+2019-10-29 20:00:00,active_event,,DEL-1029-3,burning,,,False,False,2019-10-29 19:00:00
+2019-10-29 22:00:00,hotspot,True,DEL-S01,burning,burning,0.9791636554813196,,,
+2019-10-29 22:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9340109905087812,,,
+2019-10-29 22:00:00,hotspot,True,DEL-1029-1,burning,burning,0.8157674130255977,,,
+2019-10-29 22:00:00,hotspot,True,DEL-1029-3,burning,burning,0.5606478125830291,,,
+2019-10-29 22:00:00,hotspot,True,DEL-S03,industrial,industrial,0.42758444930882716,,,
+2019-10-29 22:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-29 22:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-29 22:00:00,active_event,,DEL-S03,industrial,,,True,False,2019-10-28 20:00:00
+2019-10-29 22:00:00,active_event,,DEL-1029-1,burning,,,True,True,2019-10-29 17:00:00
+2019-10-29 22:00:00,active_event,,DEL-1029-3,burning,,,True,False,2019-10-29 19:00:00
+2019-10-30 00:00:00,hotspot,True,DEL-S01,burning,burning,0.9791636554813196,,,
+2019-10-30 00:00:00,hotspot,True,DEL-S02,industrial,industrial,0.958908721799535,,,
+2019-10-30 00:00:00,hotspot,True,DEL-S03,industrial,industrial,0.9367689617125892,,,
+2019-10-30 00:00:00,hotspot,True,DEL-1029-3,burning,burning,0.7717673210851815,,,
+2019-10-30 00:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-30 00:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-30 00:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-10-30 00:00:00,active_event,,DEL-1029-3,burning,,,True,True,2019-10-29 19:00:00
+2019-10-30 02:00:00,hotspot,True,DEL-S01,burning,burning,0.9791636554813196,,,
+2019-10-30 02:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9219965259698765,,,
+2019-10-30 02:00:00,hotspot,True,DEL-S03,industrial,industrial,0.9700914141339742,,,
+2019-10-30 02:00:00,hotspot,True,DEL-1029-3,burning,burning,0.1056388768278947,,,
+2019-10-30 02:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-30 02:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-30 02:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-10-30 04:00:00,hotspot,True,DEL-S01,burning,burning,0.9791636554813196,,,
+2019-10-30 04:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9341475673770396,,,
+2019-10-30 04:00:00,hotspot,True,DEL-S03,industrial,industrial,0.6159491742895012,,,
+2019-10-30 04:00:00,hotspot,True,DEL-S03,industrial,industrial,0.1960973307449726,,,
+2019-10-30 04:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-30 04:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-30 06:00:00,hotspot,True,DEL-S01,burning,burning,0.9791636554813196,,,
+2019-10-30 06:00:00,hotspot,True,DEL-S02,industrial,industrial,0.2068468659306625,,,
+2019-10-30 06:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-30 08:00:00,hotspot,True,DEL-S01,burning,burning,0.9791636554813196,,,
+2019-10-30 08:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-30 08:00:00,active_event,,DEL-S06,dust,,,False,False,2019-10-30 08:00:00
+2019-10-30 10:00:00,hotspot,True,DEL-S01,burning,burning,0.9791636554813196,,,
+2019-10-30 10:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-30 10:00:00,active_event,,DEL-S06,dust,,,False,False,2019-10-30 08:00:00
+2019-10-30 12:00:00,hotspot,True,DEL-S01,burning,burning,0.991422514586288,,,
+2019-10-30 12:00:00,hotspot,True,DEL-S06,dust,dust,0.4674855229477106,,,
+2019-10-30 12:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-30 12:00:00,active_event,,DEL-S06,dust,,,True,False,2019-10-30 08:00:00
+2019-10-30 14:00:00,hotspot,True,DEL-S01,burning,burning,0.991422514586288,,,
+2019-10-30 14:00:00,hotspot,False,,,industrial,0.15274234553982627,,,
+2019-10-30 14:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-30 14:00:00,active_event,,DEL-S06,dust,,,False,False,2019-10-30 08:00:00
+2019-10-30 16:00:00,hotspot,True,DEL-S01,burning,burning,0.991422514586288,,,
+2019-10-30 16:00:00,hotspot,False,,,industrial,0.2898413629314657,,,
+2019-10-30 16:00:00,hotspot,False,,,industrial,0.2861664656534627,,,
+2019-10-30 16:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-30 16:00:00,active_event,,DEL-S06,dust,,,False,False,2019-10-30 08:00:00
+2019-10-30 18:00:00,hotspot,True,DEL-S01,burning,burning,0.991422514586288,,,
+2019-10-30 18:00:00,hotspot,True,DEL-1030-4,traffic,traffic,0.794704400764323,,,
+2019-10-30 18:00:00,hotspot,False,,,burning,0.3826892198638323,,,
+2019-10-30 18:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-30 18:00:00,active_event,,DEL-S04,burning,,,False,False,2019-10-30 18:00:00
+2019-10-30 18:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-10-30 18:00:00,active_event,,DEL-1030-1,burning,,,False,False,2019-10-30 18:00:00
+2019-10-30 18:00:00,active_event,,DEL-1030-4,traffic,,,True,True,2019-10-30 17:00:00
+2019-10-30 20:00:00,hotspot,True,DEL-S01,burning,burning,0.991422514586288,,,
+2019-10-30 20:00:00,hotspot,True,DEL-1030-4,traffic,traffic,0.8114346695217971,,,
+2019-10-30 20:00:00,hotspot,True,DEL-1030-2,burning,burning,0.932956990311978,,,
+2019-10-30 20:00:00,hotspot,True,DEL-S04,burning,burning,0.46676514458607976,,,
+2019-10-30 20:00:00,hotspot,True,DEL-1030-1,burning,burning,0.3137160872110508,,,
+2019-10-30 20:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-30 20:00:00,active_event,,DEL-S02,industrial,,,False,False,2019-10-26 20:00:00
+2019-10-30 20:00:00,active_event,,DEL-S04,burning,,,True,False,2019-10-30 18:00:00
+2019-10-30 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-10-30 20:00:00,active_event,,DEL-1030-1,burning,,,True,False,2019-10-30 18:00:00
+2019-10-30 20:00:00,active_event,,DEL-1030-2,burning,,,True,True,2019-10-30 19:00:00
+2019-10-30 20:00:00,active_event,,DEL-1030-4,traffic,,,True,True,2019-10-30 17:00:00
+2019-10-30 22:00:00,hotspot,True,DEL-S01,burning,burning,0.991422514586288,,,
+2019-10-30 22:00:00,hotspot,True,DEL-1030-2,burning,burning,0.9859363729567544,,,
+2019-10-30 22:00:00,hotspot,True,DEL-S04,burning,burning,0.7170496555438586,,,
+2019-10-30 22:00:00,hotspot,True,DEL-1030-1,burning,burning,0.6380085951198514,,,
+2019-10-30 22:00:00,hotspot,True,DEL-1030-4,traffic,traffic,0.8762568010275386,,,
+2019-10-30 22:00:00,hotspot,True,DEL-S02,industrial,industrial,0.8383970977969377,,,
+2019-10-30 22:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-30 22:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-30 22:00:00,active_event,,DEL-S03,industrial,,,False,False,2019-10-28 20:00:00
+2019-10-30 22:00:00,active_event,,DEL-S04,burning,,,True,True,2019-10-30 18:00:00
+2019-10-30 22:00:00,active_event,,DEL-1030-1,burning,,,True,True,2019-10-30 18:00:00
+2019-10-30 22:00:00,active_event,,DEL-1030-2,burning,,,True,True,2019-10-30 19:00:00
+2019-10-30 22:00:00,active_event,,DEL-1030-4,traffic,,,True,True,2019-10-30 17:00:00
+2019-10-31 00:00:00,hotspot,True,DEL-S01,burning,burning,0.9791636554813196,,,
+2019-10-31 00:00:00,hotspot,True,DEL-1030-1,burning,industrial,0.8443220562442316,,,
+2019-10-31 00:00:00,hotspot,True,DEL-1030-2,burning,burning,0.9626731126558706,,,
+2019-10-31 00:00:00,hotspot,True,DEL-S02,industrial,industrial,0.8322892812388234,,,
+2019-10-31 00:00:00,hotspot,True,DEL-S03,industrial,industrial,0.9119280248135038,,,
+2019-10-31 00:00:00,hotspot,True,DEL-1030-1,burning,industrial,0.5702225243621947,,,
+2019-10-31 00:00:00,hotspot,True,DEL-S04,burning,industrial,0.15289789412266874,,,
+2019-10-31 00:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-31 00:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-31 00:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-10-31 00:00:00,active_event,,DEL-1030-1,burning,,,True,True,2019-10-30 18:00:00
+2019-10-31 02:00:00,hotspot,True,DEL-S01,burning,burning,0.9791636554813196,,,
+2019-10-31 02:00:00,hotspot,True,DEL-S02,industrial,industrial,0.8987398447803201,,,
+2019-10-31 02:00:00,hotspot,True,DEL-S03,industrial,industrial,0.9751860361650675,,,
+2019-10-31 02:00:00,hotspot,True,DEL-1030-1,burning,industrial,0.17702292770717082,,,
+2019-10-31 02:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-31 02:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-31 02:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-10-31 04:00:00,hotspot,True,DEL-S01,burning,burning,0.9791636554813196,,,
+2019-10-31 04:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9119840627479937,,,
+2019-10-31 04:00:00,hotspot,True,DEL-S03,industrial,industrial,0.7909422533660105,,,
+2019-10-31 04:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-31 04:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-31 06:00:00,hotspot,True,DEL-S01,burning,burning,0.9791636554813196,,,
+2019-10-31 06:00:00,active_event,,DEL-S01,burning,,,True,True,2019-10-29 11:00:00
+2019-10-31 08:00:00,hotspot,True,DEL-S01,burning,burning,0.9129342275597286,,,
+2019-10-31 10:00:00,hotspot,False,,,burning,0.32961584378226644,,,
+2019-10-31 10:00:00,hotspot,False,,,burning,0.314402600322086,,,
+2019-10-31 10:00:00,active_event,,DEL-S07,dust,,,False,False,2019-10-31 09:00:00
+2019-10-31 12:00:00,hotspot,True,DEL-S07,dust,dust,0.8136630427020282,,,
+2019-10-31 12:00:00,hotspot,False,,,burning,0.2679144221226463,,,
+2019-10-31 12:00:00,active_event,,DEL-S07,dust,,,True,True,2019-10-31 09:00:00
+2019-10-31 14:00:00,hotspot,True,DEL-S07,dust,dust,0.6163622935273628,,,
+2019-10-31 14:00:00,active_event,,DEL-S07,dust,,,True,True,2019-10-31 09:00:00
+2019-10-31 16:00:00,active_event,,DEL-S07,dust,,,False,False,2019-10-31 09:00:00
+2019-10-31 18:00:00,hotspot,True,DEL-1031-1,traffic,burning,0.3455350427630461,,,
+2019-10-31 18:00:00,active_event,,DEL-S05,traffic,,,True,False,2019-10-24 00:00:00
+2019-10-31 18:00:00,active_event,,DEL-1031-1,traffic,,,True,False,2019-10-31 17:00:00
+2019-10-31 18:00:00,active_event,,DEL-1031-2,traffic,,,False,False,2019-10-31 17:00:00
+2019-10-31 18:00:00,active_event,,DEL-1031-4,burning,,,False,False,2019-10-31 18:00:00
+2019-10-31 20:00:00,hotspot,True,DEL-1031-4,burning,burning,0.9568927450589139,,,
+2019-10-31 20:00:00,hotspot,True,DEL-1031-1,traffic,burning,0.9380893242205682,,,
+2019-10-31 20:00:00,hotspot,False,,,industrial,0.3939759500827662,,,
+2019-10-31 20:00:00,active_event,,DEL-S02,industrial,,,False,False,2019-10-26 20:00:00
+2019-10-31 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-10-31 20:00:00,active_event,,DEL-1031-1,traffic,,,True,True,2019-10-31 17:00:00
+2019-10-31 20:00:00,active_event,,DEL-1031-2,traffic,,,False,False,2019-10-31 17:00:00
+2019-10-31 20:00:00,active_event,,DEL-1031-4,burning,,,True,True,2019-10-31 18:00:00
+2019-10-31 22:00:00,hotspot,True,DEL-1031-4,burning,burning,0.973403006423134,,,
+2019-10-31 22:00:00,hotspot,True,DEL-1031-1,traffic,burning,0.9791636554813196,,,
+2019-10-31 22:00:00,hotspot,True,DEL-S02,industrial,industrial,0.7549605270404665,,,
+2019-10-31 22:00:00,hotspot,True,DEL-S03,industrial,industrial,0.6512330827761896,,,
+2019-10-31 22:00:00,hotspot,True,DEL-1031-2,traffic,burning,0.29351716539951017,,,
+2019-10-31 22:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-10-31 22:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-10-31 22:00:00,active_event,,DEL-1031-1,traffic,,,True,True,2019-10-31 17:00:00
+2019-10-31 22:00:00,active_event,,DEL-1031-2,traffic,,,True,False,2019-10-31 17:00:00
+2019-10-31 22:00:00,active_event,,DEL-1031-4,burning,,,True,True,2019-10-31 18:00:00
+2019-11-01 00:00:00,hotspot,True,DEL-1031-4,burning,industrial,0.9859363729567544,,,
+2019-11-01 00:00:00,hotspot,True,DEL-S02,industrial,industrial,0.7646062730149469,,,
+2019-11-01 00:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-01 00:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-11-01 02:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9002495108803148,,,
+2019-11-01 02:00:00,hotspot,True,DEL-S03,industrial,industrial,0.9791636554813196,,,
+2019-11-01 02:00:00,hotspot,False,,,industrial,0.19884436830108734,,,
+2019-11-01 02:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-01 02:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-11-01 04:00:00,hotspot,True,DEL-S02,industrial,industrial,0.900470168673615,,,
+2019-11-01 04:00:00,hotspot,True,DEL-S03,industrial,industrial,0.8264898344721935,,,
+2019-11-01 04:00:00,hotspot,False,,,industrial,0.40357001360964934,,,
+2019-11-01 04:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-01 06:00:00,hotspot,False,,,industrial,0.26970329795831366,,,
+2019-11-01 06:00:00,hotspot,False,,,industrial,0.19576540140397214,,,
+2019-11-01 08:00:00,hotspot,False,,,industrial,0.22180343881328715,,,
+2019-11-01 08:00:00,active_event,,DEL-1101-2,dust,,,False,False,2019-11-01 08:00:00
+2019-11-01 10:00:00,hotspot,True,DEL-1101-2,dust,dust,0.8523377780022133,,,
+2019-11-01 10:00:00,active_event,,DEL-1101-2,dust,,,True,True,2019-11-01 08:00:00
+2019-11-01 12:00:00,hotspot,True,DEL-1101-2,dust,dust,0.8078760821373244,,,
+2019-11-01 12:00:00,hotspot,True,DEL-1101-2,dust,dust,0.6612097962538377,,,
+2019-11-01 12:00:00,active_event,,DEL-1101-2,dust,,,True,True,2019-11-01 08:00:00
+2019-11-01 14:00:00,hotspot,True,DEL-1101-2,dust,dust,0.893134402272676,,,
+2019-11-01 14:00:00,hotspot,True,DEL-1101-2,dust,dust,0.76890571609792,,,
+2019-11-01 14:00:00,hotspot,False,,,burning,0.2942079456888017,,,
+2019-11-01 14:00:00,active_event,,DEL-1101-2,dust,,,True,True,2019-11-01 08:00:00
+2019-11-01 16:00:00,hotspot,False,,,burning,0.3064647649638219,,,
+2019-11-01 18:00:00,hotspot,True,DEL-S05,traffic,traffic,0.32742043121652364,,,
+2019-11-01 18:00:00,hotspot,False,,,industrial,0.3392986350285791,,,
+2019-11-01 18:00:00,active_event,,DEL-S05,traffic,,,True,False,2019-10-24 00:00:00
+2019-11-01 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.8744096459394014,,,
+2019-11-01 20:00:00,hotspot,True,DEL-S02,industrial,industrial,0.29306591222672485,,,
+2019-11-01 20:00:00,active_event,,DEL-S02,industrial,,,True,False,2019-10-26 20:00:00
+2019-11-01 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-01 20:00:00,active_event,,DEL-1101-1,burning,,,False,False,2019-11-01 20:00:00
+2019-11-01 22:00:00,hotspot,True,DEL-S05,traffic,burning,0.9820137900379085,,,
+2019-11-01 22:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9478464369215823,,,
+2019-11-01 22:00:00,hotspot,True,DEL-S03,industrial,industrial,0.9395157450178366,,,
+2019-11-01 22:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-01 22:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-11-01 22:00:00,active_event,,DEL-1101-1,burning,,,True,True,2019-11-01 20:00:00
+2019-11-02 00:00:00,hotspot,True,DEL-1101-1,burning,burning,0.9890130573694068,,,
+2019-11-02 00:00:00,hotspot,True,DEL-S03,industrial,industrial,0.9661048358408219,,,
+2019-11-02 00:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9677045353015495,,,
+2019-11-02 00:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-02 00:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-11-02 00:00:00,active_event,,DEL-1101-1,burning,,,True,True,2019-11-01 20:00:00
+2019-11-02 02:00:00,hotspot,True,DEL-1101-1,burning,burning,0.991422514586288,,,
+2019-11-02 02:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9677045353015495,,,
+2019-11-02 02:00:00,hotspot,True,DEL-S03,industrial,industrial,0.9791636554813196,,,
+2019-11-02 02:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-02 02:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-11-02 02:00:00,active_event,,DEL-1101-1,burning,,,True,True,2019-11-01 20:00:00
+2019-11-02 04:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9677045353015495,,,
+2019-11-02 04:00:00,hotspot,True,DEL-S03,industrial,industrial,0.9129342275597286,,,
+2019-11-02 04:00:00,hotspot,True,DEL-1101-1,burning,burning,0.9202059092396121,,,
+2019-11-02 04:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-02 06:00:00,hotspot,True,DEL-S02,industrial,industrial,0.26104382158468825,,,
+2019-11-02 10:00:00,hotspot,True,DEL-1102-5,dust,dust,0.8974680230218652,,,
+2019-11-02 10:00:00,hotspot,True,DEL-1102-5,dust,traffic,0.4198084963430815,,,
+2019-11-02 10:00:00,active_event,,DEL-1102-4,dust,,,False,False,2019-11-02 09:00:00
+2019-11-02 10:00:00,active_event,,DEL-1102-5,dust,,,True,True,2019-11-02 09:00:00
+2019-11-02 12:00:00,hotspot,True,DEL-1102-5,dust,dust,0.9859363729567544,,,
+2019-11-02 12:00:00,active_event,,DEL-1102-4,dust,,,False,False,2019-11-02 09:00:00
+2019-11-02 12:00:00,active_event,,DEL-1102-5,dust,,,True,True,2019-11-02 09:00:00
+2019-11-02 14:00:00,hotspot,True,DEL-1102-5,dust,dust,0.9614288039199306,,,
+2019-11-02 14:00:00,hotspot,False,,,industrial,0.42574384288042577,,,
+2019-11-02 14:00:00,active_event,,DEL-S08,burning,,,False,False,2019-11-02 14:00:00
+2019-11-02 14:00:00,active_event,,DEL-1102-4,dust,,,False,False,2019-11-02 09:00:00
+2019-11-02 14:00:00,active_event,,DEL-1102-5,dust,,,True,True,2019-11-02 09:00:00
+2019-11-02 16:00:00,hotspot,True,DEL-S08,burning,burning,0.9002495108803148,,,
+2019-11-02 16:00:00,hotspot,True,DEL-1102-5,dust,dust,0.8283691795758196,,,
+2019-11-02 16:00:00,active_event,,DEL-S08,burning,,,True,True,2019-11-02 14:00:00
+2019-11-02 16:00:00,active_event,,DEL-1102-5,dust,,,True,True,2019-11-02 09:00:00
+2019-11-02 18:00:00,hotspot,True,DEL-S08,burning,burning,0.9661048358408219,,,
+2019-11-02 18:00:00,active_event,,DEL-S05,traffic,,,False,False,2019-10-24 00:00:00
+2019-11-02 18:00:00,active_event,,DEL-S08,burning,,,True,True,2019-11-02 14:00:00
+2019-11-02 20:00:00,hotspot,True,DEL-S08,burning,burning,0.9499901620825771,,,
+2019-11-02 20:00:00,hotspot,True,DEL-S05,traffic,industrial,0.702500244784266,,,
+2019-11-02 20:00:00,hotspot,False,,,industrial,0.2454166333963929,,,
+2019-11-02 20:00:00,hotspot,False,,,traffic,0.1593077517757346,,,
+2019-11-02 20:00:00,active_event,,DEL-S02,industrial,,,False,False,2019-10-26 20:00:00
+2019-11-02 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-02 20:00:00,active_event,,DEL-S08,burning,,,True,True,2019-11-02 14:00:00
+2019-11-02 22:00:00,hotspot,True,DEL-S08,burning,burning,0.9677045353015495,,,
+2019-11-02 22:00:00,hotspot,True,DEL-S02,industrial,industrial,0.33712559193329233,,,
+2019-11-02 22:00:00,hotspot,True,DEL-S03,industrial,industrial,0.38209461189817706,,,
+2019-11-02 22:00:00,active_event,,DEL-S02,industrial,,,True,False,2019-10-26 20:00:00
+2019-11-02 22:00:00,active_event,,DEL-S03,industrial,,,True,False,2019-10-28 20:00:00
+2019-11-02 22:00:00,active_event,,DEL-S08,burning,,,True,True,2019-11-02 14:00:00
+2019-11-03 00:00:00,hotspot,True,DEL-S08,burning,industrial,0.9791636554813196,,,
+2019-11-03 00:00:00,hotspot,True,DEL-S02,industrial,industrial,0.7037358204826341,,,
+2019-11-03 00:00:00,hotspot,True,DEL-S03,industrial,industrial,0.3672652452216357,,,
+2019-11-03 00:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-03 00:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-11-03 00:00:00,active_event,,DEL-S08,burning,,,True,True,2019-11-02 14:00:00
+2019-11-03 02:00:00,hotspot,True,DEL-S08,burning,industrial,0.9791636554813196,,,
+2019-11-03 02:00:00,hotspot,True,DEL-S02,industrial,industrial,0.7217757763738786,,,
+2019-11-03 02:00:00,hotspot,False,,,industrial,0.25192783699831023,,,
+2019-11-03 02:00:00,hotspot,False,,,industrial,0.2602877394315477,,,
+2019-11-03 02:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-03 02:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-11-03 02:00:00,active_event,,DEL-S08,burning,,,True,True,2019-11-02 14:00:00
+2019-11-03 04:00:00,hotspot,True,DEL-S08,burning,burning,0.9791636554813196,,,
+2019-11-03 04:00:00,hotspot,True,DEL-S02,industrial,industrial,0.5586321231089123,,,
+2019-11-03 04:00:00,hotspot,False,,,industrial,0.29161160052997487,,,
+2019-11-03 04:00:00,hotspot,True,DEL-S03,industrial,industrial,0.1884363783714675,,,
+2019-11-03 04:00:00,active_event,,DEL-S02,industrial,,,True,False,2019-10-26 20:00:00
+2019-11-03 04:00:00,active_event,,DEL-S08,burning,,,True,True,2019-11-02 14:00:00
+2019-11-03 06:00:00,hotspot,True,DEL-S08,burning,burning,0.991422514586288,,,
+2019-11-03 06:00:00,active_event,,DEL-S08,burning,,,True,True,2019-11-02 14:00:00
+2019-11-03 08:00:00,hotspot,True,DEL-S08,burning,burning,0.991422514586288,,,
+2019-11-03 08:00:00,hotspot,False,,,industrial,0.4805682690232299,,,
+2019-11-03 08:00:00,hotspot,False,,,burning,0.23573875280636528,,,
+2019-11-03 08:00:00,hotspot,False,,,burning,0.20436092310097026,,,
+2019-11-03 08:00:00,active_event,,DEL-S08,burning,,,True,True,2019-11-02 14:00:00
+2019-11-03 10:00:00,hotspot,True,DEL-S08,burning,burning,0.9852947658027124,,,
+2019-11-03 10:00:00,hotspot,False,,,burning,0.16901294389034546,,,
+2019-11-03 10:00:00,active_event,,DEL-S08,burning,,,True,True,2019-11-02 14:00:00
+2019-11-03 10:00:00,active_event,,DEL-1103-1,dust,,,False,False,2019-11-03 10:00:00
+2019-11-03 12:00:00,hotspot,True,DEL-1103-1,dust,burning,0.46511745167066043,,,
+2019-11-03 12:00:00,hotspot,False,,,burning,0.4168973719405002,,,
+2019-11-03 12:00:00,active_event,,DEL-1103-1,dust,,,True,False,2019-11-03 10:00:00
+2019-11-03 14:00:00,hotspot,False,,,burning,0.3430999768557768,,,
+2019-11-03 14:00:00,active_event,,DEL-1103-1,dust,,,False,False,2019-11-03 10:00:00
+2019-11-03 16:00:00,hotspot,False,,,burning,0.22398959473089353,,,
+2019-11-03 16:00:00,hotspot,False,,,burning,0.17539146042482573,,,
+2019-11-03 16:00:00,active_event,,DEL-1103-1,dust,,,False,False,2019-11-03 10:00:00
+2019-11-03 18:00:00,hotspot,True,DEL-1103-2,traffic,burning,0.8249267041674014,,,
+2019-11-03 18:00:00,hotspot,False,,,traffic,0.16724875469998537,,,
+2019-11-03 18:00:00,active_event,,DEL-S05,traffic,,,False,False,2019-10-24 00:00:00
+2019-11-03 18:00:00,active_event,,DEL-1103-2,traffic,,,True,True,2019-11-03 17:00:00
+2019-11-03 20:00:00,hotspot,True,DEL-1103-2,traffic,traffic,0.9791636554813196,,,
+2019-11-03 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.5920478924338356,,,
+2019-11-03 20:00:00,hotspot,True,DEL-1103-3,burning,burning,0.5232623157426017,,,
+2019-11-03 20:00:00,hotspot,True,DEL-1103-2,traffic,burning,0.48724504143586733,,,
+2019-11-03 20:00:00,active_event,,DEL-S02,industrial,,,False,False,2019-10-26 20:00:00
+2019-11-03 20:00:00,active_event,,DEL-S05,traffic,,,True,False,2019-10-24 00:00:00
+2019-11-03 20:00:00,active_event,,DEL-1103-2,traffic,,,True,True,2019-11-03 17:00:00
+2019-11-03 20:00:00,active_event,,DEL-1103-3,burning,,,True,False,2019-11-03 19:00:00
+2019-11-03 22:00:00,hotspot,True,DEL-1103-3,burning,burning,0.973403006423134,,,
+2019-11-03 22:00:00,hotspot,True,DEL-1103-2,traffic,traffic,0.9751601543376602,,,
+2019-11-03 22:00:00,hotspot,True,DEL-S03,industrial,industrial,0.9091029823321758,,,
+2019-11-03 22:00:00,hotspot,True,DEL-S02,industrial,industrial,0.8753444511157618,,,
+2019-11-03 22:00:00,hotspot,True,DEL-S05,traffic,traffic,0.1598290091251082,,,
+2019-11-03 22:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-03 22:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-11-03 22:00:00,active_event,,DEL-1103-2,traffic,,,True,True,2019-11-03 17:00:00
+2019-11-03 22:00:00,active_event,,DEL-1103-3,burning,,,True,True,2019-11-03 19:00:00
+2019-11-04 00:00:00,hotspot,True,DEL-1103-3,burning,burning,0.9863289576390635,,,
+2019-11-04 00:00:00,hotspot,True,DEL-S03,industrial,industrial,0.9661048358408219,,,
+2019-11-04 00:00:00,hotspot,True,DEL-S02,industrial,industrial,0.958908721799535,,,
+2019-11-04 00:00:00,hotspot,True,DEL-1103-2,traffic,traffic,0.34264135053674816,,,
+2019-11-04 00:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-04 00:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-11-04 00:00:00,active_event,,DEL-1103-3,burning,,,True,True,2019-11-03 19:00:00
+2019-11-04 02:00:00,hotspot,True,DEL-S03,industrial,industrial,0.9791636554813196,,,
+2019-11-04 02:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9677045353015495,,,
+2019-11-04 02:00:00,hotspot,True,DEL-1103-3,burning,burning,0.4015893393440077,,,
+2019-11-04 02:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-04 02:00:00,active_event,,DEL-S03,industrial,,,True,True,2019-10-28 20:00:00
+2019-11-04 04:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9502634884414434,,,
+2019-11-04 04:00:00,hotspot,True,DEL-S03,industrial,industrial,0.9791636554813196,,,
+2019-11-04 04:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-04 06:00:00,hotspot,False,,,industrial,0.30880433762063625,,,
+2019-11-04 06:00:00,hotspot,False,,,burning,0.37045263301350856,,,
+2019-11-04 08:00:00,hotspot,False,,,burning,0.3148380831292464,,,
+2019-11-04 12:00:00,hotspot,False,,,burning,0.17403076607723864,,,
+2019-11-04 12:00:00,hotspot,False,,,industrial,0.0915413545343179,,,
+2019-11-04 12:00:00,hotspot,False,,,burning,0.19462380260883053,,,
+2019-11-04 12:00:00,hotspot,False,,,burning,0.0753789364627285,,,
+2019-11-04 14:00:00,hotspot,False,,,industrial,0.22704500531291585,,,
+2019-11-04 16:00:00,hotspot,False,,,burning,0.3472944597926917,,,
+2019-11-04 18:00:00,hotspot,True,DEL-1104-2,burning,burning,0.9453186827840592,,,
+2019-11-04 18:00:00,hotspot,True,DEL-1104-1,burning,burning,0.9770226300899744,,,
+2019-11-04 18:00:00,hotspot,True,DEL-1104-3,burning,burning,0.5710329529018926,,,
+2019-11-04 18:00:00,active_event,,DEL-S05,traffic,,,False,False,2019-10-24 00:00:00
+2019-11-04 18:00:00,active_event,,DEL-1104-1,burning,,,True,True,2019-11-04 17:00:00
+2019-11-04 18:00:00,active_event,,DEL-1104-2,burning,,,True,True,2019-11-04 17:00:00
+2019-11-04 18:00:00,active_event,,DEL-1104-3,burning,,,True,False,2019-11-04 18:00:00
+2019-11-04 20:00:00,hotspot,True,DEL-1104-1,burning,burning,0.9859363729567544,,,
+2019-11-04 20:00:00,hotspot,True,DEL-1104-2,burning,burning,0.9661048358408219,,,
+2019-11-04 20:00:00,hotspot,True,DEL-1104-3,burning,burning,0.9820137900379085,,,
+2019-11-04 20:00:00,hotspot,True,DEL-1104-1,burning,burning,0.740774899182154,,,
+2019-11-04 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.2544693106682929,,,
+2019-11-04 20:00:00,active_event,,DEL-S02,industrial,,,False,False,2019-10-26 20:00:00
+2019-11-04 20:00:00,active_event,,DEL-S05,traffic,,,True,False,2019-10-24 00:00:00
+2019-11-04 20:00:00,active_event,,DEL-1104-1,burning,,,True,True,2019-11-04 17:00:00
+2019-11-04 20:00:00,active_event,,DEL-1104-2,burning,,,True,True,2019-11-04 17:00:00
+2019-11-04 20:00:00,active_event,,DEL-1104-3,burning,,,True,True,2019-11-04 18:00:00
+2019-11-04 22:00:00,hotspot,True,DEL-1104-1,burning,burning,0.991422514586288,,,
+2019-11-04 22:00:00,hotspot,True,DEL-1104-3,burning,burning,0.9890130573694068,,,
+2019-11-04 22:00:00,hotspot,True,DEL-1104-2,burning,burning,0.9791636554813196,,,
+2019-11-04 22:00:00,hotspot,True,DEL-S02,industrial,industrial,0.842098069652478,,,
+2019-11-04 22:00:00,hotspot,True,DEL-1104-1,burning,burning,0.6899744811276125,,,
+2019-11-04 22:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-04 22:00:00,active_event,,DEL-1104-1,burning,,,True,True,2019-11-04 17:00:00
+2019-11-04 22:00:00,active_event,,DEL-1104-2,burning,,,True,True,2019-11-04 17:00:00
+2019-11-04 22:00:00,active_event,,DEL-1104-3,burning,,,True,True,2019-11-04 18:00:00
+2019-11-05 00:00:00,hotspot,True,DEL-1104-3,burning,burning,0.991422514586288,,,
+2019-11-05 00:00:00,hotspot,True,DEL-S02,industrial,industrial,0.958908721799535,,,
+2019-11-05 00:00:00,hotspot,True,DEL-1104-1,burning,burning,0.9073992572664414,,,
+2019-11-05 00:00:00,hotspot,True,DEL-1104-2,burning,burning,0.34604542722458137,,,
+2019-11-05 00:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-05 00:00:00,active_event,,DEL-1104-3,burning,,,True,True,2019-11-04 18:00:00
+2019-11-05 02:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9241418199787566,,,
+2019-11-05 02:00:00,hotspot,True,DEL-1104-3,burning,industrial,0.8957634075058105,,,
+2019-11-05 02:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-05 04:00:00,hotspot,True,DEL-S02,industrial,industrial,0.7772998611746911,,,
+2019-11-05 04:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-05 06:00:00,hotspot,False,,,industrial,0.2921460393385935,,,
+2019-11-05 08:00:00,hotspot,False,,,industrial,0.20338105541418133,,,
+2019-11-05 12:00:00,hotspot,False,,,industrial,0.41527398105737084,,,
+2019-11-05 12:00:00,hotspot,False,,,industrial,0.26212952736685774,,,
+2019-11-05 12:00:00,hotspot,False,,,industrial,0.21880463203380762,,,
+2019-11-05 12:00:00,hotspot,False,,,industrial,0.20190587121250428,,,
+2019-11-05 14:00:00,hotspot,False,,,industrial,0.183051032658358,,,
+2019-11-05 14:00:00,hotspot,False,,,burning,0.16015809310897178,,,
+2019-11-05 18:00:00,hotspot,True,DEL-1105-3,traffic,traffic,0.9453186827840592,,,
+2019-11-05 18:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-05 18:00:00,active_event,,DEL-1105-1,traffic,,,True,True,2019-11-05 17:00:00
+2019-11-05 18:00:00,active_event,,DEL-1105-3,traffic,,,True,True,2019-11-05 17:00:00
+2019-11-05 18:00:00,active_event,,DEL-1105-5,burning,,,False,False,2019-11-05 18:00:00
+2019-11-05 20:00:00,hotspot,True,DEL-1105-1,traffic,traffic,0.9661048358408219,,,
+2019-11-05 20:00:00,hotspot,True,DEL-1105-5,burning,burning,0.3127969354245271,,,
+2019-11-05 20:00:00,hotspot,True,DEL-1105-5,burning,industrial,0.3036335363506971,,,
+2019-11-05 20:00:00,active_event,,DEL-S02,industrial,,,False,False,2019-10-26 20:00:00
+2019-11-05 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-05 20:00:00,active_event,,DEL-1105-1,traffic,,,True,True,2019-11-05 17:00:00
+2019-11-05 20:00:00,active_event,,DEL-1105-3,traffic,,,True,True,2019-11-05 17:00:00
+2019-11-05 20:00:00,active_event,,DEL-1105-5,burning,,,True,False,2019-11-05 18:00:00
+2019-11-05 22:00:00,hotspot,True,DEL-1105-1,traffic,traffic,0.9791636554813196,,,
+2019-11-05 22:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9340109905087812,,,
+2019-11-05 22:00:00,hotspot,True,DEL-1105-5,burning,burning,0.45864936564524345,,,
+2019-11-05 22:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-05 22:00:00,active_event,,DEL-1105-1,traffic,,,True,True,2019-11-05 17:00:00
+2019-11-05 22:00:00,active_event,,DEL-1105-3,traffic,,,True,True,2019-11-05 17:00:00
+2019-11-05 22:00:00,active_event,,DEL-1105-5,burning,,,True,False,2019-11-05 18:00:00
+2019-11-06 00:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9370266439430035,,,
+2019-11-06 00:00:00,hotspot,True,DEL-1105-3,traffic,industrial,0.7701958209396548,,,
+2019-11-06 00:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-06 02:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9502634884414434,,,
+2019-11-06 02:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-06 04:00:00,hotspot,True,DEL-S02,industrial,industrial,0.9502634884414434,,,
+2019-11-06 04:00:00,active_event,,DEL-S02,industrial,,,True,True,2019-10-26 20:00:00
+2019-11-06 10:00:00,active_event,,DEL-1106-3,dust,,,False,False,2019-11-06 10:00:00
+2019-11-06 12:00:00,hotspot,True,DEL-1106-3,dust,dust,0.7521818880706223,,,
+2019-11-06 12:00:00,active_event,,DEL-1106-3,dust,,,True,True,2019-11-06 10:00:00
+2019-11-06 14:00:00,hotspot,True,DEL-1106-3,dust,dust,0.6518270577681794,,,
+2019-11-06 14:00:00,active_event,,DEL-1106-3,dust,,,True,True,2019-11-06 10:00:00
+2019-11-06 16:00:00,hotspot,True,DEL-1106-3,dust,dust,0.8175744761936437,,,
+2019-11-06 16:00:00,active_event,,DEL-1106-3,dust,,,True,True,2019-11-06 10:00:00
+2019-11-06 18:00:00,hotspot,True,DEL-1106-3,dust,dust,0.8807970779778823,,,
+2019-11-06 18:00:00,hotspot,True,DEL-S05,traffic,traffic,0.374644315851737,,,
+2019-11-06 18:00:00,active_event,,DEL-S05,traffic,,,True,False,2019-10-24 00:00:00
+2019-11-06 18:00:00,active_event,,DEL-1106-3,dust,,,True,True,2019-11-06 10:00:00
+2019-11-06 20:00:00,hotspot,True,DEL-1106-2,burning,burning,0.8185748628979113,,,
+2019-11-06 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.6971855795659786,,,
+2019-11-06 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-06 20:00:00,active_event,,DEL-1106-2,burning,,,True,True,2019-11-06 19:00:00
+2019-11-06 22:00:00,hotspot,True,DEL-1106-2,burning,burning,0.9781187290638694,,,
+2019-11-06 22:00:00,hotspot,True,DEL-S05,traffic,traffic,0.284937195182923,,,
+2019-11-06 22:00:00,active_event,,DEL-1106-2,burning,,,True,True,2019-11-06 19:00:00
+2019-11-07 00:00:00,hotspot,True,DEL-1106-2,burning,burning,0.9398131781360363,,,
+2019-11-07 08:00:00,active_event,,DEL-1107-2,dust,,,False,False,2019-11-07 08:00:00
+2019-11-07 10:00:00,hotspot,False,,,burning,0.18095737523165695,,,
+2019-11-07 10:00:00,active_event,,DEL-1107-2,dust,,,False,False,2019-11-07 08:00:00
+2019-11-07 12:00:00,hotspot,True,DEL-1107-2,dust,dust,0.43297604365754144,,,
+2019-11-07 12:00:00,active_event,,DEL-1107-2,dust,,,True,False,2019-11-07 08:00:00
+2019-11-07 14:00:00,hotspot,True,DEL-1107-2,dust,dust,0.5451877769126755,,,
+2019-11-07 14:00:00,hotspot,False,,,burning,0.3458525910916453,,,
+2019-11-07 14:00:00,active_event,,DEL-1107-2,dust,,,True,False,2019-11-07 08:00:00
+2019-11-07 16:00:00,hotspot,True,DEL-1107-2,dust,dust,0.380221372162776,,,
+2019-11-07 16:00:00,hotspot,False,,,burning,0.25883559376466386,,,
+2019-11-07 16:00:00,active_event,,DEL-1107-2,dust,,,True,False,2019-11-07 08:00:00
+2019-11-07 18:00:00,hotspot,True,DEL-S05,traffic,traffic,0.26755819716766777,,,
+2019-11-07 18:00:00,active_event,,DEL-S05,traffic,,,True,False,2019-10-24 00:00:00
+2019-11-07 18:00:00,active_event,,DEL-1107-1,traffic,,,False,False,2019-11-07 17:00:00
+2019-11-07 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.48949066804601365,,,
+2019-11-07 20:00:00,active_event,,DEL-S05,traffic,,,True,False,2019-10-24 00:00:00
+2019-11-07 20:00:00,active_event,,DEL-1107-1,traffic,,,False,False,2019-11-07 17:00:00
+2019-11-07 22:00:00,hotspot,False,,,industrial,0.3641749817838759,,,
+2019-11-07 22:00:00,hotspot,True,DEL-1107-1,traffic,industrial,0.26464199063215893,,,
+2019-11-07 22:00:00,hotspot,True,DEL-S05,traffic,traffic,0.17963201396121525,,,
+2019-11-07 22:00:00,active_event,,DEL-1107-1,traffic,,,True,False,2019-11-07 17:00:00
+2019-11-08 02:00:00,hotspot,False,,,industrial,0.2896350916126562,,,
+2019-11-08 10:00:00,hotspot,True,DEL-1108-1,dust,dust,0.6175964483337018,,,
+2019-11-08 10:00:00,hotspot,False,,,industrial,0.2967346458652027,,,
+2019-11-08 10:00:00,active_event,,DEL-1108-1,dust,,,True,True,2019-11-08 09:00:00
+2019-11-08 12:00:00,hotspot,True,DEL-1108-1,dust,dust,0.807225416097627,,,
+2019-11-08 12:00:00,active_event,,DEL-1108-1,dust,,,True,True,2019-11-08 09:00:00
+2019-11-08 14:00:00,hotspot,True,DEL-1108-1,dust,dust,0.7710641801152059,,,
+2019-11-08 14:00:00,active_event,,DEL-1108-1,dust,,,True,True,2019-11-08 09:00:00
+2019-11-08 16:00:00,hotspot,True,DEL-1108-1,dust,dust,0.8527906766683686,,,
+2019-11-08 16:00:00,active_event,,DEL-1108-1,dust,,,True,True,2019-11-08 09:00:00
+2019-11-08 18:00:00,hotspot,True,DEL-1108-2,traffic,traffic,0.7987584374324296,,,
+2019-11-08 18:00:00,hotspot,True,DEL-1108-1,dust,dust,0.28270649044163354,,,
+2019-11-08 18:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-08 18:00:00,active_event,,DEL-1108-2,traffic,,,True,True,2019-11-08 17:00:00
+2019-11-08 20:00:00,hotspot,True,DEL-1108-2,traffic,traffic,0.9661048358408219,,,
+2019-11-08 20:00:00,hotspot,True,DEL-1108-4,burning,burning,0.2586241176856175,,,
+2019-11-08 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-08 20:00:00,active_event,,DEL-1108-2,traffic,,,True,True,2019-11-08 17:00:00
+2019-11-08 20:00:00,active_event,,DEL-1108-4,burning,,,True,False,2019-11-08 19:00:00
+2019-11-08 22:00:00,hotspot,True,DEL-1108-2,traffic,industrial,0.9791636554813196,,,
+2019-11-08 22:00:00,hotspot,True,DEL-1108-4,burning,burning,0.9160014892655689,,,
+2019-11-08 22:00:00,active_event,,DEL-1108-2,traffic,,,True,True,2019-11-08 17:00:00
+2019-11-08 22:00:00,active_event,,DEL-1108-4,burning,,,True,True,2019-11-08 19:00:00
+2019-11-09 00:00:00,hotspot,True,DEL-1108-4,burning,burning,0.901776304964426,,,
+2019-11-09 00:00:00,active_event,,DEL-1108-4,burning,,,True,True,2019-11-08 19:00:00
+2019-11-09 02:00:00,hotspot,True,DEL-1108-4,burning,burning,0.7375422789155772,,,
+2019-11-09 04:00:00,hotspot,False,,,industrial,0.2708420446947575,,,
+2019-11-09 06:00:00,hotspot,False,,,industrial,0.32624146602780674,,,
+2019-11-09 10:00:00,hotspot,True,DEL-1109-4,dust,dust,0.8875859439806587,,,
+2019-11-09 10:00:00,hotspot,False,,,burning,0.29785142298366685,,,
+2019-11-09 10:00:00,hotspot,False,,,industrial,0.289216300261577,,,
+2019-11-09 10:00:00,active_event,,DEL-1109-1,dust,,,False,False,2019-11-09 10:00:00
+2019-11-09 10:00:00,active_event,,DEL-1109-3,dust,,,False,False,2019-11-09 09:00:00
+2019-11-09 10:00:00,active_event,,DEL-1109-4,dust,,,True,True,2019-11-09 09:00:00
+2019-11-09 12:00:00,hotspot,True,DEL-1109-4,dust,dust,0.9859363729567544,,,
+2019-11-09 12:00:00,hotspot,True,DEL-1109-3,dust,dust,0.9551110880858406,,,
+2019-11-09 12:00:00,hotspot,True,DEL-1109-1,dust,dust,0.644528356353758,,,
+2019-11-09 12:00:00,hotspot,False,,,industrial,0.1451115703039059,,,
+2019-11-09 12:00:00,active_event,,DEL-1109-1,dust,,,True,True,2019-11-09 10:00:00
+2019-11-09 12:00:00,active_event,,DEL-1109-3,dust,,,True,True,2019-11-09 09:00:00
+2019-11-09 12:00:00,active_event,,DEL-1109-4,dust,,,True,True,2019-11-09 09:00:00
+2019-11-09 14:00:00,hotspot,True,DEL-1109-4,dust,dust,0.991422514586288,,,
+2019-11-09 14:00:00,hotspot,True,DEL-1109-1,dust,dust,0.9791636554813196,,,
+2019-11-09 14:00:00,hotspot,True,DEL-1109-3,dust,dust,0.9828759666842724,,,
+2019-11-09 14:00:00,hotspot,True,DEL-1109-4,dust,dust,0.5865459442338254,,,
+2019-11-09 14:00:00,active_event,,DEL-1109-1,dust,,,True,True,2019-11-09 10:00:00
+2019-11-09 14:00:00,active_event,,DEL-1109-3,dust,,,True,True,2019-11-09 09:00:00
+2019-11-09 14:00:00,active_event,,DEL-1109-4,dust,,,True,True,2019-11-09 09:00:00
+2019-11-09 16:00:00,hotspot,True,DEL-1109-1,dust,dust,0.9677045353015495,,,
+2019-11-09 16:00:00,hotspot,True,DEL-1109-4,dust,dust,0.991422514586288,,,
+2019-11-09 16:00:00,hotspot,True,DEL-1109-3,dust,dust,0.9866130821723351,,,
+2019-11-09 16:00:00,hotspot,True,DEL-1109-4,dust,dust,0.748226730714246,,,
+2019-11-09 16:00:00,active_event,,DEL-1109-1,dust,,,True,True,2019-11-09 10:00:00
+2019-11-09 16:00:00,active_event,,DEL-1109-3,dust,,,True,True,2019-11-09 09:00:00
+2019-11-09 16:00:00,active_event,,DEL-1109-4,dust,,,True,True,2019-11-09 09:00:00
+2019-11-09 18:00:00,hotspot,True,DEL-1109-4,dust,dust,0.9129342275597286,,,
+2019-11-09 18:00:00,hotspot,True,DEL-1109-2,burning,burning,0.8754466418125836,,,
+2019-11-09 18:00:00,active_event,,DEL-S05,traffic,,,False,False,2019-10-24 00:00:00
+2019-11-09 18:00:00,active_event,,DEL-1109-2,burning,,,True,True,2019-11-09 17:00:00
+2019-11-09 20:00:00,hotspot,True,DEL-1109-2,burning,burning,0.9478464369215823,,,
+2019-11-09 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.6301272847529422,,,
+2019-11-09 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-09 20:00:00,active_event,,DEL-1109-2,burning,,,True,True,2019-11-09 17:00:00
+2019-11-09 22:00:00,hotspot,True,DEL-1109-2,burning,burning,0.9129342275597286,,,
+2019-11-10 04:00:00,hotspot,False,,,industrial,0.16140667890845276,,,
+2019-11-10 12:00:00,hotspot,False,,,burning,0.19226128286549862,,,
+2019-11-10 12:00:00,hotspot,False,,,burning,0.16433285981728407,,,
+2019-11-10 14:00:00,hotspot,False,,,industrial,0.16241374978497639,,,
+2019-11-10 16:00:00,hotspot,False,,,burning,0.18712073877384658,,,
+2019-11-10 18:00:00,hotspot,True,DEL-S05,traffic,traffic,0.8175744761936437,,,
+2019-11-10 18:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-10 18:00:00,active_event,,DEL-1110-3,traffic,,,True,True,2019-11-10 17:00:00
+2019-11-10 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.9205614508160216,,,
+2019-11-10 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-10 20:00:00,active_event,,DEL-1110-3,traffic,,,True,True,2019-11-10 17:00:00
+2019-11-10 22:00:00,hotspot,True,DEL-S05,traffic,traffic,0.8455347349164652,,,
+2019-11-10 22:00:00,active_event,,DEL-1110-3,traffic,,,True,True,2019-11-10 17:00:00
+2019-11-11 00:00:00,hotspot,True,DEL-1110-3,traffic,traffic,0.2731029040262005,,,
+2019-11-11 00:00:00,hotspot,False,,,industrial,0.2826156824425477,,,
+2019-11-11 06:00:00,hotspot,False,,,burning,0.2802892238064734,,,
+2019-11-11 06:00:00,hotspot,False,,,burning,0.2133999828032423,,,
+2019-11-11 08:00:00,hotspot,False,,,burning,0.5756796698426655,,,
+2019-11-11 12:00:00,hotspot,False,,,industrial,0.2562682736659707,,,
+2019-11-11 14:00:00,hotspot,False,,,industrial,0.24492739893254986,,,
+2019-11-11 18:00:00,hotspot,True,DEL-1111-3,traffic,traffic,0.4326570390811764,,,
+2019-11-11 18:00:00,hotspot,True,DEL-S05,traffic,traffic,0.342030593368586,,,
+2019-11-11 18:00:00,active_event,,DEL-S05,traffic,,,True,False,2019-10-24 00:00:00
+2019-11-11 18:00:00,active_event,,DEL-1111-2,traffic,,,False,False,2019-11-11 17:00:00
+2019-11-11 18:00:00,active_event,,DEL-1111-3,traffic,,,True,False,2019-11-11 17:00:00
+2019-11-11 20:00:00,hotspot,True,DEL-1111-3,traffic,traffic,0.8807970779778823,,,
+2019-11-11 20:00:00,hotspot,True,DEL-1111-2,traffic,traffic,0.6895834945608035,,,
+2019-11-11 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.514496615818176,,,
+2019-11-11 20:00:00,active_event,,DEL-S05,traffic,,,True,False,2019-10-24 00:00:00
+2019-11-11 20:00:00,active_event,,DEL-1111-1,burning,,,False,False,2019-11-11 20:00:00
+2019-11-11 20:00:00,active_event,,DEL-1111-2,traffic,,,True,True,2019-11-11 17:00:00
+2019-11-11 20:00:00,active_event,,DEL-1111-3,traffic,,,True,True,2019-11-11 17:00:00
+2019-11-11 22:00:00,hotspot,True,DEL-1111-3,traffic,traffic,0.9241418199787566,,,
+2019-11-11 22:00:00,hotspot,True,DEL-1111-1,burning,burning,0.8594148321989272,,,
+2019-11-11 22:00:00,hotspot,True,DEL-1111-2,traffic,traffic,0.4698236318796943,,,
+2019-11-11 22:00:00,active_event,,DEL-1111-1,burning,,,True,True,2019-11-11 20:00:00
+2019-11-11 22:00:00,active_event,,DEL-1111-2,traffic,,,True,False,2019-11-11 17:00:00
+2019-11-11 22:00:00,active_event,,DEL-1111-3,traffic,,,True,True,2019-11-11 17:00:00
+2019-11-12 00:00:00,hotspot,True,DEL-1111-1,burning,burning,0.9680559414252435,,,
+2019-11-12 00:00:00,hotspot,True,DEL-1111-3,traffic,traffic,0.24050426460271743,,,
+2019-11-12 00:00:00,active_event,,DEL-1111-1,burning,,,True,True,2019-11-11 20:00:00
+2019-11-12 02:00:00,hotspot,False,,,industrial,0.2730852239502207,,,
+2019-11-12 08:00:00,hotspot,False,,,industrial,0.20781694970770606,,,
+2019-11-12 12:00:00,hotspot,False,,,industrial,0.3566006415458506,,,
+2019-11-12 12:00:00,hotspot,False,,,industrial,0.20172782552251992,,,
+2019-11-12 14:00:00,hotspot,False,,,burning,0.5351996326506312,,,
+2019-11-12 18:00:00,hotspot,True,DEL-1112-3,burning,burning,0.8754466418125836,,,
+2019-11-12 18:00:00,hotspot,True,DEL-S05,traffic,traffic,0.6204252546240531,,,
+2019-11-12 18:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-12 18:00:00,active_event,,DEL-1112-3,burning,,,True,True,2019-11-12 17:00:00
+2019-11-12 20:00:00,hotspot,True,DEL-1112-3,burning,burning,0.8754466418125836,,,
+2019-11-12 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.8082360224408031,,,
+2019-11-12 20:00:00,hotspot,True,DEL-1112-3,burning,burning,0.34634901118664263,,,
+2019-11-12 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-12 20:00:00,active_event,,DEL-1112-3,burning,,,True,True,2019-11-12 17:00:00
+2019-11-12 22:00:00,hotspot,True,DEL-1112-3,burning,burning,0.9205614508160216,,,
+2019-11-12 22:00:00,hotspot,True,DEL-1112-3,burning,burning,0.5316655779860934,,,
+2019-11-12 22:00:00,active_event,,DEL-1112-3,burning,,,True,True,2019-11-12 17:00:00
+2019-11-13 00:00:00,hotspot,True,DEL-1112-3,burning,industrial,0.23473367827602026,,,
+2019-11-13 04:00:00,hotspot,False,,,industrial,0.3064219296924492,,,
+2019-11-13 04:00:00,hotspot,False,,,industrial,0.2562288924963624,,,
+2019-11-13 06:00:00,hotspot,False,,,industrial,0.2868981053615863,,,
+2019-11-13 08:00:00,active_event,,DEL-1113-2,dust,,,False,False,2019-11-13 08:00:00
+2019-11-13 08:00:00,active_event,,DEL-1113-4,dust,,,False,False,2019-11-13 08:00:00
+2019-11-13 10:00:00,hotspot,True,DEL-1113-4,dust,dust,0.9453186827840592,,,
+2019-11-13 10:00:00,hotspot,True,DEL-1113-2,dust,dust,0.7094831321380821,,,
+2019-11-13 10:00:00,active_event,,DEL-1113-2,dust,,,True,True,2019-11-13 08:00:00
+2019-11-13 10:00:00,active_event,,DEL-1113-4,dust,,,True,True,2019-11-13 08:00:00
+2019-11-13 12:00:00,hotspot,True,DEL-1113-4,dust,dust,0.9661048358408219,,,
+2019-11-13 12:00:00,hotspot,True,DEL-1113-2,dust,dust,0.9370266439430035,,,
+2019-11-13 12:00:00,active_event,,DEL-1113-2,dust,,,True,True,2019-11-13 08:00:00
+2019-11-13 12:00:00,active_event,,DEL-1113-4,dust,,,True,True,2019-11-13 08:00:00
+2019-11-13 14:00:00,hotspot,True,DEL-1113-4,dust,dust,0.9791636554813196,,,
+2019-11-13 14:00:00,hotspot,True,DEL-1113-2,dust,dust,0.9404820578962755,,,
+2019-11-13 14:00:00,active_event,,DEL-1113-2,dust,,,True,True,2019-11-13 08:00:00
+2019-11-13 14:00:00,active_event,,DEL-1113-4,dust,,,True,True,2019-11-13 08:00:00
+2019-11-13 16:00:00,hotspot,True,DEL-1113-4,dust,dust,0.9791636554813196,,,
+2019-11-13 16:00:00,active_event,,DEL-1113-4,dust,,,True,True,2019-11-13 08:00:00
+2019-11-13 18:00:00,hotspot,True,DEL-S05,traffic,traffic,0.64869090977264,,,
+2019-11-13 18:00:00,hotspot,True,DEL-1113-4,dust,dust,0.5905586417908057,,,
+2019-11-13 18:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-13 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.9140308419806631,,,
+2019-11-13 20:00:00,hotspot,False,,,burning,0.3559957072456771,,,
+2019-11-13 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-13 22:00:00,hotspot,True,DEL-S05,traffic,traffic,0.2798661982527756,,,
+2019-11-14 04:00:00,hotspot,False,,,industrial,0.19301249416153066,,,
+2019-11-14 06:00:00,hotspot,False,,,industrial,0.3191125848660312,,,
+2019-11-14 06:00:00,hotspot,False,,,industrial,0.3030162559543092,,,
+2019-11-14 10:00:00,hotspot,False,,,industrial,0.31224899373000575,,,
+2019-11-14 16:00:00,hotspot,False,,,industrial,0.3659039670002906,,,
+2019-11-14 18:00:00,hotspot,True,DEL-S05,traffic,burning,0.9820137900379085,,,
+2019-11-14 18:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-14 18:00:00,active_event,,DEL-1114-3,burning,,,True,True,2019-11-14 18:00:00
+2019-11-14 20:00:00,hotspot,True,DEL-1114-3,burning,burning,0.9820137900379085,,,
+2019-11-14 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-14 20:00:00,active_event,,DEL-1114-3,burning,,,True,True,2019-11-14 18:00:00
+2019-11-14 22:00:00,hotspot,True,DEL-1114-3,burning,burning,0.9890130573694068,,,
+2019-11-14 22:00:00,active_event,,DEL-1114-3,burning,,,True,True,2019-11-14 18:00:00
+2019-11-15 00:00:00,hotspot,True,DEL-1114-3,burning,burning,0.991422514586288,,,
+2019-11-15 00:00:00,active_event,,DEL-1114-3,burning,,,True,True,2019-11-14 18:00:00
+2019-11-15 02:00:00,hotspot,True,DEL-1114-3,burning,burning,0.9626731126558706,,,
+2019-11-15 04:00:00,hotspot,False,,,industrial,0.17805226608164648,,,
+2019-11-15 06:00:00,hotspot,False,,,industrial,0.44539735798487373,,,
+2019-11-15 06:00:00,hotspot,False,,,burning,0.2987166889322217,,,
+2019-11-15 08:00:00,hotspot,False,,,burning,0.20258050981819045,,,
+2019-11-15 10:00:00,hotspot,False,,,burning,0.4370508559252733,,,
+2019-11-15 10:00:00,hotspot,False,,,burning,0.42337208271446825,,,
+2019-11-15 10:00:00,hotspot,False,,,burning,0.2726423342997542,,,
+2019-11-15 10:00:00,hotspot,False,,,burning,0.2046531153425055,,,
+2019-11-15 10:00:00,active_event,,DEL-1115-4,dust,,,False,False,2019-11-15 10:00:00
+2019-11-15 12:00:00,hotspot,False,,,industrial,0.4534861644026888,,,
+2019-11-15 12:00:00,hotspot,True,DEL-1115-4,dust,industrial,0.324073646428169,,,
+2019-11-15 12:00:00,hotspot,False,,,traffic,0.32069972327057095,,,
+2019-11-15 12:00:00,hotspot,False,,,industrial,0.233994320534843,,,
+2019-11-15 12:00:00,active_event,,DEL-1115-4,dust,,,True,False,2019-11-15 10:00:00
+2019-11-15 14:00:00,hotspot,False,,,industrial,0.5087457105365343,,,
+2019-11-15 14:00:00,hotspot,False,,,burning,0.23700815418282148,,,
+2019-11-15 14:00:00,active_event,,DEL-1115-4,dust,,,False,False,2019-11-15 10:00:00
+2019-11-15 16:00:00,hotspot,True,DEL-1115-4,dust,dust,0.9328603241070293,,,
+2019-11-15 16:00:00,hotspot,False,,,industrial,0.17478955898480036,,,
+2019-11-15 16:00:00,active_event,,DEL-1115-4,dust,,,True,True,2019-11-15 10:00:00
+2019-11-15 18:00:00,hotspot,True,DEL-1115-2,traffic,traffic,0.9168273035060777,,,
+2019-11-15 18:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-15 18:00:00,active_event,,DEL-1115-2,traffic,,,True,True,2019-11-15 17:00:00
+2019-11-15 18:00:00,active_event,,DEL-1115-5,traffic,,,False,False,2019-11-15 17:00:00
+2019-11-15 20:00:00,hotspot,True,DEL-1115-2,traffic,traffic,0.9478464369215823,,,
+2019-11-15 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-15 20:00:00,active_event,,DEL-1115-2,traffic,,,True,True,2019-11-15 17:00:00
+2019-11-15 20:00:00,active_event,,DEL-1115-3,burning,,,False,False,2019-11-15 20:00:00
+2019-11-15 20:00:00,active_event,,DEL-1115-5,traffic,,,False,False,2019-11-15 17:00:00
+2019-11-15 22:00:00,hotspot,True,DEL-1115-2,traffic,traffic,0.8956687768809987,,,
+2019-11-15 22:00:00,hotspot,True,DEL-1115-3,burning,burning,0.7158594332811004,,,
+2019-11-15 22:00:00,active_event,,DEL-1115-2,traffic,,,True,True,2019-11-15 17:00:00
+2019-11-15 22:00:00,active_event,,DEL-1115-3,burning,,,True,True,2019-11-15 20:00:00
+2019-11-15 22:00:00,active_event,,DEL-1115-5,traffic,,,False,False,2019-11-15 17:00:00
+2019-11-16 00:00:00,hotspot,True,DEL-1115-3,burning,burning,0.973403006423134,,,
+2019-11-16 00:00:00,active_event,,DEL-1115-3,burning,,,True,True,2019-11-15 20:00:00
+2019-11-16 02:00:00,hotspot,False,,,industrial,0.5107639285792164,,,
+2019-11-16 06:00:00,hotspot,False,,,burning,0.4518553105763566,,,
+2019-11-16 08:00:00,hotspot,False,,,burning,0.25399962974997814,,,
+2019-11-16 10:00:00,active_event,,DEL-1116-4,dust,,,False,False,2019-11-16 10:00:00
+2019-11-16 12:00:00,hotspot,True,DEL-1116-4,dust,industrial,0.21105633408442045,,,
+2019-11-16 12:00:00,active_event,,DEL-1116-4,dust,,,True,False,2019-11-16 10:00:00
+2019-11-16 14:00:00,active_event,,DEL-1116-4,dust,,,False,False,2019-11-16 10:00:00
+2019-11-16 16:00:00,active_event,,DEL-1116-4,dust,,,False,False,2019-11-16 10:00:00
+2019-11-16 18:00:00,hotspot,True,DEL-S05,traffic,traffic,0.6063135329318017,,,
+2019-11-16 18:00:00,hotspot,True,DEL-1116-1,traffic,burning,0.6899744811276125,,,
+2019-11-16 18:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-16 18:00:00,active_event,,DEL-1116-1,traffic,,,True,True,2019-11-16 17:00:00
+2019-11-16 20:00:00,hotspot,True,DEL-1116-1,traffic,traffic,0.9820137900379085,,,
+2019-11-16 20:00:00,hotspot,True,DEL-S05,traffic,traffic,0.7609827117193109,,,
+2019-11-16 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-16 20:00:00,active_event,,DEL-1116-1,traffic,,,True,True,2019-11-16 17:00:00
+2019-11-16 20:00:00,active_event,,DEL-1116-2,burning,,,False,False,2019-11-16 20:00:00
+2019-11-16 22:00:00,hotspot,True,DEL-1116-1,traffic,traffic,0.9890130573694068,,,
+2019-11-16 22:00:00,hotspot,True,DEL-1116-2,burning,burning,0.6709278999685927,,,
+2019-11-16 22:00:00,active_event,,DEL-1116-1,traffic,,,True,True,2019-11-16 17:00:00
+2019-11-16 22:00:00,active_event,,DEL-1116-2,burning,,,True,True,2019-11-16 20:00:00
+2019-11-17 00:00:00,hotspot,True,DEL-1116-2,burning,burning,0.6885241503100585,,,
+2019-11-17 00:00:00,hotspot,True,DEL-1116-2,burning,industrial,0.6359018357548356,,,
+2019-11-17 00:00:00,active_event,,DEL-1116-2,burning,,,True,True,2019-11-16 20:00:00
+2019-11-17 02:00:00,hotspot,True,DEL-1116-2,burning,burning,0.9791636554813196,,,
+2019-11-17 02:00:00,active_event,,DEL-1116-2,burning,,,True,True,2019-11-16 20:00:00
+2019-11-17 04:00:00,hotspot,True,DEL-1116-2,burning,burning,0.4424379444136359,,,
+2019-11-17 08:00:00,active_event,,DEL-1117-1,dust,,,False,False,2019-11-17 08:00:00
+2019-11-17 10:00:00,hotspot,True,DEL-1117-1,dust,dust,0.9568927450589139,,,
+2019-11-17 10:00:00,hotspot,True,DEL-1117-3,dust,dust,0.30349704684675843,,,
+2019-11-17 10:00:00,active_event,,DEL-1117-1,dust,,,True,True,2019-11-17 08:00:00
+2019-11-17 10:00:00,active_event,,DEL-1117-3,dust,,,True,False,2019-11-17 09:00:00
+2019-11-17 12:00:00,hotspot,True,DEL-1117-3,dust,dust,0.8462633073359793,,,
+2019-11-17 12:00:00,hotspot,True,DEL-1117-1,dust,dust,0.973403006423134,,,
+2019-11-17 12:00:00,hotspot,True,DEL-1117-3,dust,dust,0.6523322231048468,,,
+2019-11-17 12:00:00,hotspot,True,DEL-1117-3,dust,dust,0.48801751768831225,,,
+2019-11-17 12:00:00,active_event,,DEL-1117-1,dust,,,True,True,2019-11-17 08:00:00
+2019-11-17 12:00:00,active_event,,DEL-1117-3,dust,,,True,True,2019-11-17 09:00:00
+2019-11-17 14:00:00,hotspot,True,DEL-1117-3,dust,dust,0.9241418199787566,,,
+2019-11-17 14:00:00,hotspot,True,DEL-1117-1,dust,dust,0.9791636554813196,,,
+2019-11-17 14:00:00,active_event,,DEL-1117-1,dust,,,True,True,2019-11-17 08:00:00
+2019-11-17 14:00:00,active_event,,DEL-1117-3,dust,,,True,True,2019-11-17 09:00:00
+2019-11-17 16:00:00,hotspot,True,DEL-1117-1,dust,dust,0.9661048358408219,,,
+2019-11-17 16:00:00,hotspot,True,DEL-1117-3,dust,dust,0.6341355910108007,,,
+2019-11-17 16:00:00,active_event,,DEL-1117-1,dust,,,True,True,2019-11-17 08:00:00
+2019-11-17 18:00:00,active_event,,DEL-S05,traffic,,,False,False,2019-10-24 00:00:00
+2019-11-17 18:00:00,active_event,,DEL-1117-2,burning,,,False,False,2019-11-17 18:00:00
+2019-11-17 20:00:00,hotspot,True,DEL-1117-4,burning,burning,0.9820137900379085,,,
+2019-11-17 20:00:00,active_event,,DEL-S05,traffic,,,True,True,2019-10-24 00:00:00
+2019-11-17 20:00:00,active_event,,DEL-1117-2,burning,,,True,True,2019-11-17 18:00:00
+2019-11-17 20:00:00,active_event,,DEL-1117-4,burning,,,True,True,2019-11-17 19:00:00
+2019-11-17 22:00:00,hotspot,True,DEL-1117-4,burning,burning,0.9890130573694068,,,
+2019-11-17 22:00:00,active_event,,DEL-1117-2,burning,,,True,True,2019-11-17 18:00:00
+2019-11-17 22:00:00,active_event,,DEL-1117-4,burning,,,True,True,2019-11-17 19:00:00

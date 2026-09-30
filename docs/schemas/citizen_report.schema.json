@@ -1,0 +1,104 @@
+{
+  "description": "A geotagged citizen photo/observation report.",
+  "properties": {
+    "report_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Report Id"
+    },
+    "city": {
+      "examples": [
+        "Delhi"
+      ],
+      "title": "City",
+      "type": "string"
+    },
+    "time": {
+      "format": "date-time",
+      "title": "Time",
+      "type": "string"
+    },
+    "lat": {
+      "maximum": 90,
+      "minimum": -90,
+      "title": "Lat",
+      "type": "number"
+    },
+    "lon": {
+      "maximum": 180,
+      "minimum": -180,
+      "title": "Lon",
+      "type": "number"
+    },
+    "category": {
+      "enum": [
+        "Fire / open burning",
+        "Smoke / open burning",
+        "Industrial smoke / stack",
+        "Dust / construction",
+        "Haze / smog",
+        "Vehicle exhaust / congestion"
+      ],
+      "title": "Category",
+      "type": "string"
+    },
+    "note": {
+      "anyOf": [
+        {
+          "maxLength": 500,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Note"
+    },
+    "haze_index": {
+      "anyOf": [
+        {
+          "maximum": 1,
+          "minimum": 0,
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "From on-device dark-channel analysis",
+      "title": "Haze Index"
+    },
+    "image_url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Image Url"
+    }
+  },
+  "required": [
+    "city",
+    "time",
+    "lat",
+    "lon",
+    "category"
+  ],
+  "title": "CitizenReport",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vayusetu:schema:citizen_report:v1"
+}

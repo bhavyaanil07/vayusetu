@@ -1,0 +1,115 @@
+{
+  "$defs": {
+    "ForecastWindow": {
+      "properties": {
+        "window": {
+          "enum": [
+            "Next 24 h",
+            "24-48 h",
+            "48-72 h"
+          ],
+          "title": "Window",
+          "type": "string"
+        },
+        "start": {
+          "format": "date-time",
+          "title": "Start",
+          "type": "string"
+        },
+        "end": {
+          "format": "date-time",
+          "title": "End",
+          "type": "string"
+        },
+        "pm25_p10": {
+          "title": "Pm25 P10",
+          "type": "number"
+        },
+        "pm25_p50": {
+          "title": "Pm25 P50",
+          "type": "number"
+        },
+        "pm25_p90": {
+          "title": "Pm25 P90",
+          "type": "number"
+        },
+        "aqi": {
+          "title": "Aqi",
+          "type": "number"
+        },
+        "category": {
+          "title": "Category",
+          "type": "string"
+        },
+        "prob_very_poor": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Prob Very Poor",
+          "type": "number"
+        },
+        "prob_severe": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Prob Severe",
+          "type": "number"
+        }
+      },
+      "required": [
+        "window",
+        "start",
+        "end",
+        "pm25_p10",
+        "pm25_p50",
+        "pm25_p90",
+        "aqi",
+        "category",
+        "prob_very_poor",
+        "prob_severe"
+      ],
+      "title": "ForecastWindow",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "city": {
+      "title": "City",
+      "type": "string"
+    },
+    "issue_time": {
+      "format": "date-time",
+      "title": "Issue Time",
+      "type": "string"
+    },
+    "model_id": {
+      "default": "vayucast-pm25-v1.1",
+      "title": "Model Id",
+      "type": "string"
+    },
+    "windows": {
+      "items": {
+        "$ref": "#/$defs/ForecastWindow"
+      },
+      "title": "Windows",
+      "type": "array"
+    },
+    "hourly": {
+      "description": "[{time, h, p10, p50, p90}] hourly PM2.5 in \u00b5g/m\u00b3",
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Hourly",
+      "type": "array"
+    }
+  },
+  "required": [
+    "city",
+    "issue_time",
+    "windows",
+    "hourly"
+  ],
+  "title": "Forecast",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vayusetu:schema:forecast:v1"
+}

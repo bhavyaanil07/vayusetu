@@ -1,0 +1,28 @@
+{
+  "model_id": "vayucast-pm25-v1.1",
+  "name": "VayuCast PM2.5 probabilistic forecaster",
+  "version": "1.1.0",
+  "task": "PM2.5 forecast 1-72 h ahead: hourly curve + 24-h average windows with 10/50/90 % quantiles",
+  "algorithm": "Histogram gradient boosting (scikit-learn), quantile loss; blended with persistence; conformal calibration",
+  "training_data": "CPCB hourly city-level data, 26 Indian cities, 2015-01 to 2019-05",
+  "evaluation": "Out-of-sample Jul 2019 - Jun 2020, one issue per day at 18:00 IST",
+  "headline_metrics": {
+    "skill_vs_persistence_next24h": 0.089,
+    "skill_vs_persistence_24_48h": 0.101,
+    "skill_vs_persistence_48_72h": 0.114,
+    "mae_next24h_ugm3": 12.0,
+    "very_poor_f1_next24h": 0.778,
+    "p10_p90_coverage_next24h": 0.825,
+    "note": "metrics exclude the COVID-19 lockdown (20 Mar - 31 May 2020); full-period metrics in reports/forecast_metrics.json"
+  },
+  "inputs": "Recent PM2.5/PM10/NO2/CO history, climatology prior, calendar & Diwali effects, neighbouring-city pollution",
+  "intended_use": "Early warning of PM2.5 spikes for city/state authorities (decision support, not a regulatory measurement)",
+  "limitations": [
+    "Trained on city-average station data; ward-level detail comes from the citizen-sensor layer",
+    "No direct meteorological inputs in v1; live mode blends with Copernicus CAMS physics forecasts",
+    "Performance is lower for cities first seen after training (no climatology prior)"
+  ],
+  "owner_node": "VayuSetu national hub",
+  "license": "MIT",
+  "size_mb": 5.94
+}

@@ -1,0 +1,586 @@
+{
+  "history": [
+    {
+      "round": 1,
+      "clients": 19,
+      "eval_loss": 0.0839945299806268
+    },
+    {
+      "round": 2,
+      "clients": 19,
+      "eval_loss": 0.05208388821016132
+    },
+    {
+      "round": 3,
+      "clients": 19,
+      "eval_loss": 0.045492204993508104
+    },
+    {
+      "round": 4,
+      "clients": 19,
+      "eval_loss": 0.04227571693779573
+    },
+    {
+      "round": 5,
+      "clients": 19,
+      "eval_loss": 0.04094601542481109
+    },
+    {
+      "round": 6,
+      "clients": 19,
+      "eval_loss": 0.04039390092755675
+    },
+    {
+      "round": 7,
+      "clients": 19,
+      "eval_loss": 0.03853851153379172
+    },
+    {
+      "round": 8,
+      "clients": 19,
+      "eval_loss": 0.03857066632776436
+    },
+    {
+      "round": 9,
+      "clients": 19,
+      "eval_loss": 0.03806235558020303
+    },
+    {
+      "round": 10,
+      "clients": 19,
+      "eval_loss": 0.03800376710364458
+    },
+    {
+      "round": 11,
+      "clients": 19,
+      "eval_loss": 0.03765992599633471
+    },
+    {
+      "round": 12,
+      "clients": 19,
+      "eval_loss": 0.03730864160823146
+    },
+    {
+      "round": 13,
+      "clients": 19,
+      "eval_loss": 0.03726502497490547
+    },
+    {
+      "round": 14,
+      "clients": 19,
+      "eval_loss": 0.037730531725425814
+    },
+    {
+      "round": 15,
+      "clients": 19,
+      "eval_loss": 0.03786438993406514
+    },
+    {
+      "round": 16,
+      "clients": 19,
+      "eval_loss": 0.03731803084755414
+    },
+    {
+      "round": 17,
+      "clients": 19,
+      "eval_loss": 0.03691973797303449
+    },
+    {
+      "round": 18,
+      "clients": 19,
+      "eval_loss": 0.03730999053732824
+    },
+    {
+      "round": 19,
+      "clients": 19,
+      "eval_loss": 0.03834043786775664
+    },
+    {
+      "round": 20,
+      "clients": 19,
+      "eval_loss": 0.03722635495460225
+    },
+    {
+      "round": 21,
+      "clients": 19,
+      "eval_loss": 0.03821641096554175
+    },
+    {
+      "round": 22,
+      "clients": 19,
+      "eval_loss": 0.03819642058607977
+    },
+    {
+      "round": 23,
+      "clients": 19,
+      "eval_loss": 0.03751317460721094
+    },
+    {
+      "round": 24,
+      "clients": 19,
+      "eval_loss": 0.03872564607340046
+    },
+    {
+      "round": 25,
+      "clients": 19,
+      "eval_loss": 0.038150284033171236
+    },
+    {
+      "round": 26,
+      "clients": 19,
+      "eval_loss": 0.038243742265269505
+    },
+    {
+      "round": 27,
+      "clients": 19,
+      "eval_loss": 0.03835771299608806
+    },
+    {
+      "round": 28,
+      "clients": 19,
+      "eval_loss": 0.03757111436816629
+    },
+    {
+      "round": 29,
+      "clients": 19,
+      "eval_loss": 0.03769099122734041
+    },
+    {
+      "round": 30,
+      "clients": 19,
+      "eval_loss": 0.03778421985149514
+    },
+    {
+      "round": 31,
+      "clients": 19,
+      "eval_loss": 0.039892975516987735
+    },
+    {
+      "round": 32,
+      "clients": 19,
+      "eval_loss": 0.038639732585614504
+    },
+    {
+      "round": 33,
+      "clients": 19,
+      "eval_loss": 0.0393130448138513
+    },
+    {
+      "round": 34,
+      "clients": 19,
+      "eval_loss": 0.03778633345472104
+    },
+    {
+      "round": 35,
+      "clients": 19,
+      "eval_loss": 0.0384588808141707
+    },
+    {
+      "round": 36,
+      "clients": 19,
+      "eval_loss": 0.037852195208518985
+    },
+    {
+      "round": 37,
+      "clients": 19,
+      "eval_loss": 0.03907733512722153
+    },
+    {
+      "round": 38,
+      "clients": 19,
+      "eval_loss": 0.03820138518927996
+    },
+    {
+      "round": 39,
+      "clients": 19,
+      "eval_loss": 0.03879051747680968
+    },
+    {
+      "round": 40,
+      "clients": 19,
+      "eval_loss": 0.03858853549549938
+    }
+  ],
+  "per_city": [
+    {
+      "city": "Ahmedabad",
+      "n_test": 305,
+      "in_federation": true,
+      "train_samples": 3426,
+      "mae_persistence": 11.37835242040169,
+      "mae_federated": 9.996158852290085,
+      "mae_centralised": 9.869959937916787,
+      "mae_local_only": 13.42243974239213
+    },
+    {
+      "city": "Aizawl",
+      "n_test": 77,
+      "in_federation": false,
+      "train_samples": 0,
+      "mae_persistence": 5.247353576181967,
+      "mae_federated": 6.120578288141621,
+      "mae_centralised": 4.562536899123113,
+      "mae_local_only": null
+    },
+    {
+      "city": "Amaravati",
+      "n_test": 284,
+      "in_federation": true,
+      "train_samples": 1635,
+      "mae_persistence": 6.669863984069727,
+      "mae_federated": 7.630080464446788,
+      "mae_centralised": 6.098394630051872,
+      "mae_local_only": 6.325546162079296
+    },
+    {
+      "city": "Amritsar",
+      "n_test": 318,
+      "in_federation": true,
+      "train_samples": 2272,
+      "mae_persistence": 13.81868108922505,
+      "mae_federated": 12.283691889211656,
+      "mae_centralised": 12.18823819210687,
+      "mae_local_only": 14.10505650016554
+    },
+    {
+      "city": "Bengaluru",
+      "n_test": 365,
+      "in_federation": true,
+      "train_samples": 5464,
+      "mae_persistence": 6.234368722400326,
+      "mae_federated": 7.0100645379437365,
+      "mae_centralised": 5.427556090632969,
+      "mae_local_only": 5.491946173760548
+    },
+    {
+      "city": "Bhopal",
+      "n_test": 263,
+      "in_federation": false,
+      "train_samples": 0,
+      "mae_persistence": 11.546536660725335,
+      "mae_federated": 9.955744058315924,
+      "mae_centralised": 9.594275720985355,
+      "mae_local_only": null
+    },
+    {
+      "city": "Brajrajnagar",
+      "n_test": 196,
+      "in_federation": true,
+      "train_samples": 1379,
+      "mae_persistence": 11.91990767478923,
+      "mae_federated": 9.868283801969348,
+      "mae_centralised": 10.229023640410288,
+      "mae_local_only": 13.596377106999189
+    },
+    {
+      "city": "Chandigarh",
+      "n_test": 270,
+      "in_federation": false,
+      "train_samples": 0,
+      "mae_persistence": 9.922813895897265,
+      "mae_federated": 9.191870391331,
+      "mae_centralised": 8.143306998776858,
+      "mae_local_only": null
+    },
+    {
+      "city": "Chennai",
+      "n_test": 365,
+      "in_federation": true,
+      "train_samples": 5770,
+      "mae_persistence": 9.573616562043588,
+      "mae_federated": 9.46053379292264,
+      "mae_centralised": 7.862791578500191,
+      "mae_local_only": 8.963987558798546
+    },
+    {
+      "city": "Coimbatore",
+      "n_test": 251,
+      "in_federation": false,
+      "train_samples": 0,
+      "mae_persistence": 5.799520132438764,
+      "mae_federated": 7.496483647065535,
+      "mae_centralised": 5.181951502297581,
+      "mae_local_only": null
+    },
+    {
+      "city": "Delhi",
+      "n_test": 365,
+      "in_federation": true,
+      "train_samples": 6316,
+      "mae_persistence": 25.33441319405272,
+      "mae_federated": 25.367487098768922,
+      "mae_centralised": 23.972883399092975,
+      "mae_local_only": 23.76704646417291
+    },
+    {
+      "city": "Ernakulam",
+      "n_test": 125,
+      "in_federation": false,
+      "train_samples": 0,
+      "mae_persistence": 5.354696579364898,
+      "mae_federated": 5.951326127767853,
+      "mae_centralised": 4.913425368989397,
+      "mae_local_only": null
+    },
+    {
+      "city": "Gurugram",
+      "n_test": 363,
+      "in_federation": true,
+      "train_samples": 3710,
+      "mae_persistence": 22.35850625667988,
+      "mae_federated": 20.4178503806044,
+      "mae_centralised": 19.814514226387928,
+      "mae_local_only": 21.32431441225018
+    },
+    {
+      "city": "Guwahati",
+      "n_test": 340,
+      "in_federation": true,
+      "train_samples": 382,
+      "mae_persistence": 18.20130412590407,
+      "mae_federated": 17.825543790711226,
+      "mae_centralised": 17.262921105625427,
+      "mae_local_only": 25.732232968281856
+    },
+    {
+      "city": "Hyderabad",
+      "n_test": 365,
+      "in_federation": true,
+      "train_samples": 5454,
+      "mae_persistence": 5.466042222627941,
+      "mae_federated": 6.726694661884549,
+      "mae_centralised": 5.158460680911881,
+      "mae_local_only": 5.334638460781567
+    },
+    {
+      "city": "Jaipur",
+      "n_test": 365,
+      "in_federation": true,
+      "train_samples": 2668,
+      "mae_persistence": 9.149429844787019,
+      "mae_federated": 8.482879499632096,
+      "mae_centralised": 7.801469628173512,
+      "mae_local_only": 8.95796735264243
+    },
+    {
+      "city": "Jorapokhar",
+      "n_test": 192,
+      "in_federation": true,
+      "train_samples": 365,
+      "mae_persistence": 11.761783203740203,
+      "mae_federated": 10.942076078087082,
+      "mae_centralised": 10.957186355828583,
+      "mae_local_only": 16.250542714369843
+    },
+    {
+      "city": "Kochi",
+      "n_test": 148,
+      "in_federation": false,
+      "train_samples": 0,
+      "mae_persistence": 7.919098079638193,
+      "mae_federated": 7.215314291020674,
+      "mae_centralised": 6.885608309602313,
+      "mae_local_only": null
+    },
+    {
+      "city": "Kolkata",
+      "n_test": 365,
+      "in_federation": true,
+      "train_samples": 1395,
+      "mae_persistence": 11.438501136914265,
+      "mae_federated": 10.519709507933324,
+      "mae_centralised": 10.287346828596384,
+      "mae_local_only": 12.415622982610687
+    },
+    {
+      "city": "Lucknow",
+      "n_test": 365,
+      "in_federation": true,
+      "train_samples": 5754,
+      "mae_persistence": 18.938446004947636,
+      "mae_federated": 16.43965024924467,
+      "mae_centralised": 15.711609230777581,
+      "mae_local_only": 18.025865950552138
+    },
+    {
+      "city": "Mumbai",
+      "n_test": 365,
+      "in_federation": true,
+      "train_samples": 1353,
+      "mae_persistence": 7.25146350995442,
+      "mae_federated": 7.553671444075578,
+      "mae_centralised": 6.509105992431021,
+      "mae_local_only": 7.832633686703543
+    },
+    {
+      "city": "Patna",
+      "n_test": 348,
+      "in_federation": true,
+      "train_samples": 3351,
+      "mae_persistence": 18.06164008719077,
+      "mae_federated": 17.14506466559043,
+      "mae_centralised": 15.466549302763005,
+      "mae_local_only": 18.2908989784477
+    },
+    {
+      "city": "Shillong",
+      "n_test": 172,
+      "in_federation": false,
+      "train_samples": 0,
+      "mae_persistence": 6.234781968200269,
+      "mae_federated": 7.113056316473961,
+      "mae_centralised": 5.880472949898706,
+      "mae_local_only": null
+    },
+    {
+      "city": "Talcher",
+      "n_test": 185,
+      "in_federation": true,
+      "train_samples": 1132,
+      "mae_persistence": 14.018143003281939,
+      "mae_federated": 13.194798627892615,
+      "mae_centralised": 12.915766944393761,
+      "mae_local_only": 16.16136333788632
+    },
+    {
+      "city": "Thiruvananthapuram",
+      "n_test": 272,
+      "in_federation": true,
+      "train_samples": 2211,
+      "mae_persistence": 5.894228579147407,
+      "mae_federated": 6.5448776259123145,
+      "mae_centralised": 5.270565582586125,
+      "mae_local_only": 5.642974300450617
+    },
+    {
+      "city": "Visakhapatnam",
+      "n_test": 272,
+      "in_federation": true,
+      "train_samples": 2456,
+      "mae_persistence": 10.243357797334518,
+      "mae_federated": 9.687855500145377,
+      "mae_centralised": 8.689608872671167,
+      "mae_local_only": 8.72535082305337
+    }
+  ],
+  "summary": {
+    "federated_cities": 19,
+    "mean_mae_persistence_seen": 12.511160495762757,
+    "mean_mae_local_only_seen": 13.17720029875781,
+    "mean_mae_federated_seen": 11.95247223522457,
+    "mean_mae_centralised_seen": 11.13126064315044,
+    "cities_where_federated_beats_local": 12,
+    "mean_mae_persistence_unseen": 7.43211441320667,
+    "mean_mae_federated_unseen": 7.577767588588082,
+    "unseen_cities": [
+      "Aizawl",
+      "Bhopal",
+      "Chandigarh",
+      "Coimbatore",
+      "Ernakulam",
+      "Kochi",
+      "Shillong"
+    ]
+  },
+  "cold_start": [
+    {
+      "city": "Lucknow",
+      "days_of_local_data": 14,
+      "samples": 56,
+      "mae_persistence": 18.938446004947636,
+      "mae_local_14d": 25.11740392398388,
+      "mae_federated_zero_shot": 16.382706824428457,
+      "mae_federated_finetuned": 16.028400343384156
+    },
+    {
+      "city": "Kolkata",
+      "days_of_local_data": 14,
+      "samples": 56,
+      "mae_persistence": 11.438501136914265,
+      "mae_local_14d": 30.027994605749445,
+      "mae_federated_zero_shot": 10.682083026641942,
+      "mae_federated_finetuned": 10.544942803814543
+    },
+    {
+      "city": "Bengaluru",
+      "days_of_local_data": 14,
+      "samples": 56,
+      "mae_persistence": 6.234368722400326,
+      "mae_local_14d": 20.34451238560115,
+      "mae_federated_zero_shot": 7.4592174678947405,
+      "mae_federated_finetuned": 6.546963027184163
+    }
+  ],
+  "dp": [
+    {
+      "noise_multiplier": 0.0,
+      "clip": null,
+      "mae": 11.41763916093131
+    },
+    {
+      "noise_multiplier": 0.5,
+      "clip": 1.0,
+      "mae": 11.112911891492109
+    },
+    {
+      "noise_multiplier": 1.0,
+      "clip": 1.0,
+      "mae": 14.727027506919876
+    }
+  ],
+  "config": {
+    "rounds": 40,
+    "local_epochs": 2,
+    "hidden": 32,
+    "features": [
+      "lp_0",
+      "lp_lag1",
+      "lp_lag3",
+      "lp_lag6",
+      "lp_lag12",
+      "lp_lag24",
+      "lp_lag48",
+      "lp_lag72",
+      "lp_lag168",
+      "lp_mean3",
+      "lp_mean6",
+      "lp_mean12",
+      "lp_mean24",
+      "lp_mean72",
+      "lp_mean168",
+      "lp_std24",
+      "lp_d24",
+      "lp_trend6",
+      "lp10_mean24",
+      "lno2_mean24",
+      "lco_mean24",
+      "ratio_25_10",
+      "hour_issue",
+      "doy_sin",
+      "doy_cos",
+      "dow_t",
+      "diwali_d"
+    ],
+    "train_clients": [
+      "Ahmedabad",
+      "Amaravati",
+      "Amritsar",
+      "Bengaluru",
+      "Brajrajnagar",
+      "Chennai",
+      "Delhi",
+      "Gurugram",
+      "Guwahati",
+      "Hyderabad",
+      "Jaipur",
+      "Jorapokhar",
+      "Kolkata",
+      "Lucknow",
+      "Mumbai",
+      "Patna",
+      "Talcher",
+      "Thiruvananthapuram",
+      "Visakhapatnam"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "$defs": {
+    "SourceProbabilities": {
+      "properties": {
+        "industrial": {
+          "title": "Industrial",
+          "type": "number"
+        },
+        "burning": {
+          "title": "Burning",
+          "type": "number"
+        },
+        "dust": {
+          "title": "Dust",
+          "type": "number"
+        },
+        "traffic": {
+          "title": "Traffic",
+          "type": "number"
+        }
+      },
+      "required": [
+        "industrial",
+        "burning",
+        "dust",
+        "traffic"
+      ],
+      "title": "SourceProbabilities",
+      "type": "object"
+    }
+  },
+  "description": "A detected localised pollution hotspot (served as a GeoJSON Feature's properties).",
+  "properties": {
+    "hotspot_id": {
+      "title": "Hotspot Id",
+      "type": "string"
+    },
+    "city": {
+      "title": "City",
+      "type": "string"
+    },
+    "time": {
+      "format": "date-time",
+      "title": "Time",
+      "type": "string"
+    },
+    "lat": {
+      "title": "Lat",
+      "type": "number"
+    },
+    "lon": {
+      "title": "Lon",
+      "type": "number"
+    },
+    "radius_km": {
+      "title": "Radius Km",
+      "type": "number"
+    },
+    "peak_pm25": {
+      "title": "Peak Pm25",
+      "type": "number"
+    },
+    "peak_excess": {
+      "description": "\u00b5g/m\u00b3 above the neighbourhood background",
+      "title": "Peak Excess",
+      "type": "number"
+    },
+    "source": {
+      "enum": [
+        "industrial",
+        "burning",
+        "dust",
+        "traffic"
+      ],
+      "title": "Source",
+      "type": "string"
+    },
+    "source_probs": {
+      "$ref": "#/$defs/SourceProbabilities"
+    },
+    "confidence": {
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "severity": {
+      "enum": [
+        "Moderate",
+        "High",
+        "Critical"
+      ],
+      "title": "Severity",
+      "type": "string"
+    },
+    "wards": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Wards",
+      "type": "array"
+    },
+    "evidence": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Evidence",
+      "type": "array"
+    }
+  },
+  "required": [
+    "hotspot_id",
+    "city",
+    "time",
+    "lat",
+    "lon",
+    "radius_km",
+    "peak_pm25",
+    "peak_excess",
+    "source",
+    "source_probs",
+    "confidence",
+    "severity",
+    "wards",
+    "evidence"
+  ],
+  "title": "Hotspot",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vayusetu:schema:hotspot:v1"
+}

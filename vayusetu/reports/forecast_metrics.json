@@ -1,0 +1,729 @@
+{
+  "windows": {
+    "all": {
+      "0": {
+        "n": 7256,
+        "mae_model": 10.944795913461851,
+        "mae_persistence": 11.888405625814116,
+        "skill_vs_persistence": 0.07937226757331861,
+        "category_accuracy_model": 0.7267089305402425,
+        "category_accuracy_persistence": 0.7098952590959207,
+        "within_one_category_model": 0.9823594266813671,
+        "very_poor_events": 458,
+        "very_poor_precision": 0.7659574468085106,
+        "very_poor_recall": 0.7860262008733624,
+        "very_poor_f1": 0.7758620689655172,
+        "very_poor_precision_persistence": 0.7543478260869565,
+        "very_poor_recall_persistence": 0.75764192139738,
+        "very_poor_f1_persistence": 0.7559912854030502,
+        "brier_very_poor": 0.0223097518574252,
+        "p10_p90_coverage": 0.8195975744211687
+      },
+      "1": {
+        "n": 7143,
+        "mae_model": 14.432625726042586,
+        "mae_persistence": 15.79954636365788,
+        "skill_vs_persistence": 0.0865164483937011,
+        "category_accuracy_model": 0.6514069718605627,
+        "category_accuracy_persistence": 0.6306873862522749,
+        "within_one_category_model": 0.9624807503849923,
+        "very_poor_events": 452,
+        "very_poor_precision": 0.6960167714884696,
+        "very_poor_recall": 0.7345132743362832,
+        "very_poor_f1": 0.7147470398277718,
+        "very_poor_precision_persistence": 0.6651884700665188,
+        "very_poor_recall_persistence": 0.6637168141592921,
+        "very_poor_f1_persistence": 0.6644518272425249,
+        "brier_very_poor": 0.029923136497801137,
+        "p10_p90_coverage": 0.8474030519389613
+      },
+      "2": {
+        "n": 7095,
+        "mae_model": 16.289219227390973,
+        "mae_persistence": 18.072500545093977,
+        "skill_vs_persistence": 0.09867374540968543,
+        "category_accuracy_model": 0.6122621564482029,
+        "category_accuracy_persistence": 0.5961945031712473,
+        "within_one_category_model": 0.9516560958421424,
+        "very_poor_events": 449,
+        "very_poor_precision": 0.6356107660455487,
+        "very_poor_recall": 0.6837416481069042,
+        "very_poor_f1": 0.6587982832618026,
+        "very_poor_precision_persistence": 0.5995575221238938,
+        "very_poor_recall_persistence": 0.6035634743875279,
+        "very_poor_f1_persistence": 0.6015538290788014,
+        "brier_very_poor": 0.03367428005545418,
+        "p10_p90_coverage": 0.8418604651162791
+      }
+    },
+    "excl_covid_lockdown": {
+      "0": {
+        "n": 5650,
+        "mae_model": 11.955658681579568,
+        "mae_persistence": 13.125538298118204,
+        "skill_vs_persistence": 0.08913002956277694,
+        "category_accuracy_model": 0.7139823008849557,
+        "category_accuracy_persistence": 0.6925663716814159,
+        "within_one_category_model": 0.9796460176991151,
+        "very_poor_events": 455,
+        "very_poor_precision": 0.7659574468085106,
+        "very_poor_recall": 0.7912087912087912,
+        "very_poor_f1": 0.7783783783783782,
+        "very_poor_precision_persistence": 0.7571115973741794,
+        "very_poor_recall_persistence": 0.7604395604395604,
+        "very_poor_f1_persistence": 0.7587719298245613,
+        "brier_very_poor": 0.028115631610314204,
+        "p10_p90_coverage": 0.8246017699115045
+      },
+      "1": {
+        "n": 5568,
+        "mae_model": 15.860315773128548,
+        "mae_persistence": 17.638579886857748,
+        "skill_vs_persistence": 0.1008167395071391,
+        "category_accuracy_model": 0.6325431034482759,
+        "category_accuracy_persistence": 0.6030890804597702,
+        "within_one_category_model": 0.9565373563218391,
+        "very_poor_events": 450,
+        "very_poor_precision": 0.6960167714884696,
+        "very_poor_recall": 0.7377777777777778,
+        "very_poor_f1": 0.7162891046386192,
+        "very_poor_precision_persistence": 0.6696428571428571,
+        "very_poor_recall_persistence": 0.6666666666666666,
+        "very_poor_f1_persistence": 0.6681514476614699,
+        "brier_very_poor": 0.03758629993284834,
+        "p10_p90_coverage": 0.8433908045977011
+      },
+      "2": {
+        "n": 5530,
+        "mae_model": 18.047411414690746,
+        "mae_persistence": 20.364443605051882,
+        "skill_vs_persistence": 0.11377832045390823,
+        "category_accuracy_model": 0.5867992766726944,
+        "category_accuracy_persistence": 0.5623869801084991,
+        "within_one_category_model": 0.9439421338155516,
+        "very_poor_events": 448,
+        "very_poor_precision": 0.6356107660455487,
+        "very_poor_recall": 0.6852678571428571,
+        "very_poor_f1": 0.6595059076262084,
+        "very_poor_precision_persistence": 0.6049107142857143,
+        "very_poor_recall_persistence": 0.6049107142857143,
+        "very_poor_f1_persistence": 0.6049107142857143,
+        "brier_very_poor": 0.04224742242274557,
+        "p10_p90_coverage": 0.8381555153707052
+      }
+    }
+  },
+  "windows_uncalibrated": {
+    "all": {
+      "0": {
+        "n": 7256,
+        "mae_model": 11.38819587254681,
+        "mae_persistence": 11.888405625814116,
+        "skill_vs_persistence": 0.0420754278589861,
+        "category_accuracy_model": 0.7133406835722161,
+        "category_accuracy_persistence": 0.7098952590959207,
+        "within_one_category_model": 0.981670341786108,
+        "very_poor_events": 458,
+        "very_poor_precision": 0.7535641547861507,
+        "very_poor_recall": 0.8078602620087336,
+        "very_poor_f1": 0.779768177028451,
+        "very_poor_precision_persistence": 0.7543478260869565,
+        "very_poor_recall_persistence": 0.75764192139738,
+        "very_poor_f1_persistence": 0.7559912854030502,
+        "brier_very_poor": 0.022532687529574606,
+        "p10_p90_coverage": 0.7298787210584344
+      },
+      "1": {
+        "n": 7143,
+        "mae_model": 14.943095406657717,
+        "mae_persistence": 15.79954636365788,
+        "skill_vs_persistence": 0.05420731312705107,
+        "category_accuracy_model": 0.629287414251715,
+        "category_accuracy_persistence": 0.6306873862522749,
+        "within_one_category_model": 0.9630407391852163,
+        "very_poor_events": 452,
+        "very_poor_precision": 0.6765285996055227,
+        "very_poor_recall": 0.7588495575221239,
+        "very_poor_f1": 0.7153284671532848,
+        "very_poor_precision_persistence": 0.6651884700665188,
+        "very_poor_recall_persistence": 0.6637168141592921,
+        "very_poor_f1_persistence": 0.6644518272425249,
+        "brier_very_poor": 0.029272445608009765,
+        "p10_p90_coverage": 0.7125857482850343
+      },
+      "2": {
+        "n": 7095,
+        "mae_model": 16.685073895489104,
+        "mae_persistence": 18.072500545093977,
+        "skill_vs_persistence": 0.07677004331210313,
+        "category_accuracy_model": 0.5968992248062015,
+        "category_accuracy_persistence": 0.5961945031712473,
+        "within_one_category_model": 0.9551797040169133,
+        "very_poor_events": 449,
+        "very_poor_precision": 0.6400778210116731,
+        "very_poor_recall": 0.732739420935412,
+        "very_poor_f1": 0.6832814122533749,
+        "very_poor_precision_persistence": 0.5995575221238938,
+        "very_poor_recall_persistence": 0.6035634743875279,
+        "very_poor_f1_persistence": 0.6015538290788014,
+        "brier_very_poor": 0.032474514494995076,
+        "p10_p90_coverage": 0.7102184637068358
+      }
+    },
+    "excl_covid_lockdown": {
+      "0": {
+        "n": 5650,
+        "mae_model": 12.309214032689317,
+        "mae_persistence": 13.125538298118204,
+        "skill_vs_persistence": 0.062193583751603,
+        "category_accuracy_model": 0.7019469026548673,
+        "category_accuracy_persistence": 0.6925663716814159,
+        "within_one_category_model": 0.9787610619469026,
+        "very_poor_events": 455,
+        "very_poor_precision": 0.7535641547861507,
+        "very_poor_recall": 0.8131868131868132,
+        "very_poor_f1": 0.7822410147991544,
+        "very_poor_precision_persistence": 0.7571115973741794,
+        "very_poor_recall_persistence": 0.7604395604395604,
+        "very_poor_f1_persistence": 0.7587719298245613,
+        "brier_very_poor": 0.028536767103605414,
+        "p10_p90_coverage": 0.7451327433628319
+      },
+      "1": {
+        "n": 5568,
+        "mae_model": 16.112009489433174,
+        "mae_persistence": 17.638579886857748,
+        "skill_vs_persistence": 0.08654723947260634,
+        "category_accuracy_model": 0.6140445402298851,
+        "category_accuracy_persistence": 0.6030890804597702,
+        "within_one_category_model": 0.9583333333333334,
+        "very_poor_events": 450,
+        "very_poor_precision": 0.6765285996055227,
+        "very_poor_recall": 0.7622222222222222,
+        "very_poor_f1": 0.7168234064785789,
+        "very_poor_precision_persistence": 0.6696428571428571,
+        "very_poor_recall_persistence": 0.6666666666666666,
+        "very_poor_f1_persistence": 0.6681514476614699,
+        "brier_very_poor": 0.037069225524816896,
+        "p10_p90_coverage": 0.7253951149425287
+      },
+      "2": {
+        "n": 5530,
+        "mae_model": 18.02510914864037,
+        "mae_persistence": 20.364443605051882,
+        "skill_vs_persistence": 0.11487347760540745,
+        "category_accuracy_model": 0.5815551537070525,
+        "category_accuracy_persistence": 0.5623869801084991,
+        "within_one_category_model": 0.9499095840867993,
+        "very_poor_events": 448,
+        "very_poor_precision": 0.6400778210116731,
+        "very_poor_recall": 0.734375,
+        "very_poor_f1": 0.683991683991684,
+        "very_poor_precision_persistence": 0.6049107142857143,
+        "very_poor_recall_persistence": 0.6049107142857143,
+        "very_poor_f1_persistence": 0.6049107142857143,
+        "brier_very_poor": 0.04107693617434805,
+        "p10_p90_coverage": 0.7216998191681736
+      }
+    }
+  },
+  "hourly": {
+    "1": {
+      "mae_model": 10.297958603372237,
+      "mae_persistence": 9.404635459056566,
+      "skill_vs_persistence": -0.0949875354770302
+    },
+    "3": {
+      "mae_model": 17.047874484358815,
+      "mae_persistence": 22.83632805316751,
+      "skill_vs_persistence": 0.25347567066526744
+    },
+    "6": {
+      "mae_model": 18.984763300717834,
+      "mae_persistence": 25.483497189147336,
+      "skill_vs_persistence": 0.25501734868623605
+    },
+    "12": {
+      "mae_model": 15.922709914235718,
+      "mae_persistence": 19.533287650147425,
+      "skill_vs_persistence": 0.18484229590938617
+    },
+    "24": {
+      "mae_model": 13.683060364413246,
+      "mae_persistence": 13.882411392060922,
+      "skill_vs_persistence": 0.01435997119071697
+    },
+    "48": {
+      "mae_model": 15.92779407382352,
+      "mae_persistence": 17.069443201201082,
+      "skill_vs_persistence": 0.06688262258591016
+    },
+    "72": {
+      "mae_model": 16.84604489575476,
+      "mae_persistence": 18.45560299944452,
+      "skill_vs_persistence": 0.08721243644752252
+    }
+  },
+  "reliability_next24h": [
+    {
+      "bin": "0.0-0.1",
+      "mean_prob": 0.006057225334614046,
+      "observed_freq": 0.002564102564102564,
+      "n": 6240
+    },
+    {
+      "bin": "0.1-0.2",
+      "mean_prob": 0.1425934963004539,
+      "observed_freq": 0.08333333333333333,
+      "n": 228
+    },
+    {
+      "bin": "0.2-0.3",
+      "mean_prob": 0.24705957053608754,
+      "observed_freq": 0.125,
+      "n": 144
+    },
+    {
+      "bin": "0.3-0.4",
+      "mean_prob": 0.34791170212349654,
+      "observed_freq": 0.21,
+      "n": 100
+    },
+    {
+      "bin": "0.4-0.5",
+      "mean_prob": 0.4533789650424664,
+      "observed_freq": 0.32432432432432434,
+      "n": 74
+    },
+    {
+      "bin": "0.5-0.6",
+      "mean_prob": 0.5547040681306149,
+      "observed_freq": 0.4909090909090909,
+      "n": 55
+    },
+    {
+      "bin": "0.6-0.7",
+      "mean_prob": 0.6449215519325985,
+      "observed_freq": 0.5857142857142857,
+      "n": 70
+    },
+    {
+      "bin": "0.7-0.8",
+      "mean_prob": 0.752716176019422,
+      "observed_freq": 0.7424242424242424,
+      "n": 66
+    },
+    {
+      "bin": "0.8-0.9",
+      "mean_prob": 0.8505658010468032,
+      "observed_freq": 0.7066666666666667,
+      "n": 75
+    },
+    {
+      "bin": "0.9-1.0",
+      "mean_prob": 0.9681704293928098,
+      "observed_freq": 0.9313725490196079,
+      "n": 204
+    }
+  ],
+  "per_city_next24h": [
+    {
+      "city": "Ahmedabad",
+      "mae_model": 10.802656767214504,
+      "mae_persistence": 11.419868745398118,
+      "n": 303.0,
+      "skill": 0.05404720421435072,
+      "seen_in_training": true
+    },
+    {
+      "city": "Aizawl",
+      "mae_model": 6.0434388110348145,
+      "mae_persistence": 5.315602459673929,
+      "n": 76.0,
+      "skill": -0.13692452678365497,
+      "seen_in_training": false
+    },
+    {
+      "city": "Amaravati",
+      "mae_model": 6.362767877295516,
+      "mae_persistence": 6.694192209549502,
+      "n": 282.0,
+      "skill": 0.04950923455427492,
+      "seen_in_training": true
+    },
+    {
+      "city": "Amritsar",
+      "mae_model": 12.383393849181997,
+      "mae_persistence": 13.83121892305645,
+      "n": 316.0,
+      "skill": 0.10467805346215353,
+      "seen_in_training": true
+    },
+    {
+      "city": "Bengaluru",
+      "mae_model": 5.503844259027841,
+      "mae_persistence": 6.200479779471161,
+      "n": 363.0,
+      "skill": 0.11235187360013232,
+      "seen_in_training": true
+    },
+    {
+      "city": "Bhopal",
+      "mae_model": 10.395551926723282,
+      "mae_persistence": 11.625078173411078,
+      "n": 261.0,
+      "skill": 0.10576498741315754,
+      "seen_in_training": false
+    },
+    {
+      "city": "Brajrajnagar",
+      "mae_model": 10.65503539269633,
+      "mae_persistence": 11.919907675717978,
+      "n": 196.0,
+      "skill": 0.10611426845178651,
+      "seen_in_training": true
+    },
+    {
+      "city": "Chandigarh",
+      "mae_model": 9.398481872796328,
+      "mae_persistence": 9.916939383358118,
+      "n": 268.0,
+      "skill": 0.05227999189264254,
+      "seen_in_training": false
+    },
+    {
+      "city": "Chennai",
+      "mae_model": 8.59231498372251,
+      "mae_persistence": 9.62198704963909,
+      "n": 363.0,
+      "skill": 0.1070124144425243,
+      "seen_in_training": true
+    },
+    {
+      "city": "Coimbatore",
+      "mae_model": 5.96385151065148,
+      "mae_persistence": 5.799520137731177,
+      "n": 251.0,
+      "skill": -0.028335339651840874,
+      "seen_in_training": false
+    },
+    {
+      "city": "Delhi",
+      "mae_model": 23.51366413571116,
+      "mae_persistence": 25.414916214645185,
+      "n": 363.0,
+      "skill": 0.07480851256312393,
+      "seen_in_training": true
+    },
+    {
+      "city": "Ernakulam",
+      "mae_model": 5.371533296195542,
+      "mae_persistence": 5.3750845953874045,
+      "n": 123.0,
+      "skill": 0.0006606964279054495,
+      "seen_in_training": false
+    },
+    {
+      "city": "Gurugram",
+      "mae_model": 20.900891987322975,
+      "mae_persistence": 22.438219751706114,
+      "n": 361.0,
+      "skill": 0.0685138028504354,
+      "seen_in_training": true
+    },
+    {
+      "city": "Guwahati",
+      "mae_model": 16.35564883974099,
+      "mae_persistence": 18.29225663448245,
+      "n": 338.0,
+      "skill": 0.10587035998012351,
+      "seen_in_training": false
+    },
+    {
+      "city": "Hyderabad",
+      "mae_model": 5.333959435621709,
+      "mae_persistence": 5.481284433269413,
+      "n": 363.0,
+      "skill": 0.026877823882572982,
+      "seen_in_training": true
+    },
+    {
+      "city": "Jaipur",
+      "mae_model": 8.141884484615852,
+      "mae_persistence": 9.185813288553112,
+      "n": 363.0,
+      "skill": 0.1136457677882643,
+      "seen_in_training": true
+    },
+    {
+      "city": "Jorapokhar",
+      "mae_model": 11.448810496901695,
+      "mae_persistence": 11.761783221276668,
+      "n": 192.0,
+      "skill": 0.026609292016946506,
+      "seen_in_training": false
+    },
+    {
+      "city": "Kochi",
+      "mae_model": 7.521123444366635,
+      "mae_persistence": 7.950817997693199,
+      "n": 146.0,
+      "skill": 0.05404406860416533,
+      "seen_in_training": false
+    },
+    {
+      "city": "Kolkata",
+      "mae_model": 10.84864263238132,
+      "mae_persistence": 11.48744489388032,
+      "n": 363.0,
+      "skill": 0.055608733482526485,
+      "seen_in_training": true
+    },
+    {
+      "city": "Lucknow",
+      "mae_model": 16.778511320996035,
+      "mae_persistence": 19.018650924930526,
+      "n": 363.0,
+      "skill": 0.11778646197233755,
+      "seen_in_training": true
+    },
+    {
+      "city": "Mumbai",
+      "mae_model": 6.6953306663296805,
+      "mae_persistence": 7.267240637644813,
+      "n": 363.0,
+      "skill": 0.07869699103571703,
+      "seen_in_training": true
+    },
+    {
+      "city": "Patna",
+      "mae_model": 16.210994135767546,
+      "mae_persistence": 18.112086672715026,
+      "n": 346.0,
+      "skill": 0.1049626457348718,
+      "seen_in_training": true
+    },
+    {
+      "city": "Shillong",
+      "mae_model": 7.005923424024834,
+      "mae_persistence": 6.284538298309671,
+      "n": 170.0,
+      "skill": -0.11478729088327655,
+      "seen_in_training": false
+    },
+    {
+      "city": "Talcher",
+      "mae_model": 13.132530179745883,
+      "mae_persistence": 14.120720699922602,
+      "n": 183.0,
+      "skill": 0.06998159238303858,
+      "seen_in_training": true
+    },
+    {
+      "city": "Thiruvananthapuram",
+      "mae_model": 5.326078246493984,
+      "mae_persistence": 5.892029537051466,
+      "n": 270.0,
+      "skill": 0.09605370899764698,
+      "seen_in_training": true
+    },
+    {
+      "city": "Visakhapatnam",
+      "mae_model": 9.197348672039553,
+      "mae_persistence": 10.28678854060791,
+      "n": 270.0,
+      "skill": 0.10590670395018886,
+      "seen_in_training": true
+    }
+  ],
+  "importance_window_model": [
+    {
+      "feature": "lp_mean24",
+      "importance": 0.03893616732505373
+    },
+    {
+      "feature": "anom_mean24",
+      "importance": 0.025832198835887426
+    },
+    {
+      "feature": "doy_cos",
+      "importance": 0.018131241082113152
+    },
+    {
+      "feature": "lp_mean168",
+      "importance": 0.015398331238168509
+    },
+    {
+      "feature": "clim_win",
+      "importance": 0.011062902992799698
+    },
+    {
+      "feature": "h",
+      "importance": 0.005758579941863036
+    },
+    {
+      "feature": "clim_shift",
+      "importance": 0.0045052990436417195
+    },
+    {
+      "feature": "anom_0",
+      "importance": 0.004100868103377157
+    },
+    {
+      "feature": "lat",
+      "importance": 0.0032283137018816466
+    },
+    {
+      "feature": "lp_d24",
+      "importance": 0.0029775211412538805
+    },
+    {
+      "feature": "diwali_d",
+      "importance": 0.0016847384594062913
+    },
+    {
+      "feature": "lp_lag168",
+      "importance": 0.0010804253142669602
+    },
+    {
+      "feature": "lp_std24",
+      "importance": 0.001051884500047821
+    },
+    {
+      "feature": "nb_n",
+      "importance": 0.0010152288934971998
+    },
+    {
+      "feature": "lp10_mean24",
+      "importance": 0.0009924394106957852
+    },
+    {
+      "feature": "lon",
+      "importance": 0.000798255476880431
+    },
+    {
+      "feature": "nb_d24",
+      "importance": 0.0007650725765226407
+    },
+    {
+      "feature": "lp_lag12",
+      "importance": 0.0007165931271695033
+    },
+    {
+      "feature": "ratio_25_10",
+      "importance": 0.0004525481943415399
+    },
+    {
+      "feature": "lp_mean72",
+      "importance": 0.0003683112555157482
+    },
+    {
+      "feature": "month_t",
+      "importance": 0.0003430403770519619
+    },
+    {
+      "feature": "lp_lag6",
+      "importance": 0.0003218000688360127
+    },
+    {
+      "feature": "lp_lag72",
+      "importance": 0.00017070824034681742
+    },
+    {
+      "feature": "dow_t",
+      "importance": 0.00016308744133795386
+    },
+    {
+      "feature": "lp_lag1",
+      "importance": 0.00011317536913507675
+    },
+    {
+      "feature": "lp_lag48",
+      "importance": 4.00873483442458e-05
+    },
+    {
+      "feature": "valid24",
+      "importance": 3.573727206716374e-05
+    },
+    {
+      "feature": "lp_lag2",
+      "importance": 2.0122654702285175e-05
+    },
+    {
+      "feature": "lp_lag3",
+      "importance": 1.745402939540286e-05
+    },
+    {
+      "feature": "lp_trend6",
+      "importance": 7.3676617744119115e-06
+    },
+    {
+      "feature": "lp_lag24",
+      "importance": 1.8059948438398088e-06
+    },
+    {
+      "feature": "hour_issue",
+      "importance": 0.0
+    },
+    {
+      "feature": "hour_t",
+      "importance": 0.0
+    },
+    {
+      "feature": "win",
+      "importance": 0.0
+    },
+    {
+      "feature": "lp_0",
+      "importance": -2.0631342896500666e-05
+    },
+    {
+      "feature": "lp_mean6",
+      "importance": -2.3703660333200077e-05
+    },
+    {
+      "feature": "lp_mean3",
+      "importance": -4.2719845264493905e-05
+    },
+    {
+      "feature": "lco_mean24",
+      "importance": -0.00010268642893810724
+    },
+    {
+      "feature": "nb_anom24",
+      "importance": -0.0002185375601615469
+    },
+    {
+      "feature": "doy_sin",
+      "importance": -0.00027836014077000276
+    },
+    {
+      "feature": "lp_mean12",
+      "importance": -0.000433126368533876
+    },
+    {
+      "feature": "lno2_mean24",
+      "importance": -0.0008585184674795113
+    },
+    {
+      "feature": "clim_t",
+      "importance": -0.000950765783892397
+    }
+  ],
+  "blend_weight": 0.6,
+  "conformal": {
+    "0": [
+      0.07027079804803174,
+      0.04434218365984655
+    ],
+    "1": [
+      0.1515286505511527,
+      0.08054723763915698
+    ],
+    "2": [
+      0.16286641996994064,
+      0.08828797858500845
+    ]
+  },
+  "model_size_mb": 5.943131
+}

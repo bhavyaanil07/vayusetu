@@ -1,0 +1,13 @@
+# VayuSetu app (Streamlit Community Cloud: choose Python 3.12 under "Advanced settings")
+# Versions are pinned so the bundled model files load exactly as trained.
+streamlit==1.64.0
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+scipy==1.17.1
+plotly==7.1.0
+pydeck==0.9.3
+pyarrow==25.0.1
+requests==2.33.1
+pillow==12.2.0
+joblib==1.5.3

@@ -1,0 +1,54 @@
+{
+  "model_id": "vayusetu-fl-global-v1",
+  "name": "VayuSetu federated next-day PM2.5 model",
+  "version": "1.0.0",
+  "algorithm": "FedAvg, MLP (31-32-1), Huber loss, 40 rounds x 2 local epochs",
+  "participants": [
+    "Ahmedabad",
+    "Amaravati",
+    "Amritsar",
+    "Bengaluru",
+    "Brajrajnagar",
+    "Chennai",
+    "Delhi",
+    "Gurugram",
+    "Guwahati",
+    "Hyderabad",
+    "Jaipur",
+    "Jorapokhar",
+    "Kolkata",
+    "Lucknow",
+    "Mumbai",
+    "Patna",
+    "Talcher",
+    "Thiruvananthapuram",
+    "Visakhapatnam"
+  ],
+  "data_shared": "Model weights and feature sums only - no raw measurements",
+  "training_data_period": [
+    "2015-01-01",
+    "2019-05-30"
+  ],
+  "evaluation": "Out-of-sample 2019-07-01 to 2020-06-29 (next-24 h mean PM2.5)",
+  "headline_metrics": {
+    "federated_cities": 19,
+    "mean_mae_persistence_seen": 12.51,
+    "mean_mae_local_only_seen": 13.18,
+    "mean_mae_federated_seen": 11.95,
+    "mean_mae_centralised_seen": 11.13,
+    "cities_where_federated_beats_local": 12,
+    "mean_mae_persistence_unseen": 7.43,
+    "mean_mae_federated_unseen": 7.58,
+    "unseen_cities": [
+      "Aizawl",
+      "Bhopal",
+      "Chandigarh",
+      "Coimbatore",
+      "Ernakulam",
+      "Kochi",
+      "Shillong"
+    ]
+  },
+  "license": "MIT",
+  "format": "NumPy .npz (W1,b1,W2,b2,mean,std,features)"
+}

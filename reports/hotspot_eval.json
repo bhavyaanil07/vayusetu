@@ -1,0 +1,56 @@
+{
+  "city": "Delhi",
+  "period": [
+    "2019-10-24 00:00:00",
+    "2019-11-17 23:00:00"
+  ],
+  "step_hours": 2,
+  "match_km": 2.5,
+  "background_data": "Real CPCB hourly PM2.5/PM10 (Delhi city average)",
+  "simulated": "Local emission events, low-cost sensor readings (bias, humidity artefacts, noise, dropouts, 2 faulty units), photo reports",
+  "citizen_network": {
+    "sensors": 385,
+    "events_evaluated": 76,
+    "event_recall": 0.9736842105263158,
+    "event_recall_by_kind": {
+      "industrial": 1.0,
+      "burning": 1.0,
+      "dust": 0.96,
+      "traffic": 0.9523809523809523
+    },
+    "hourly_detection_rate": 0.8213399503722084,
+    "hotspots_raised": 500,
+    "precision": 0.74,
+    "source_attribution_accuracy": 0.8837837837837837,
+    "median_detection_delay_h": 2.0,
+    "false_alarms_per_day": 5.208681135225376,
+    "recall_at_alert_confidence": 0.8552631578947368,
+    "precision_at_alert_confidence": 1.0,
+    "false_alarms_per_day_at_alert_confidence": 0.0
+  },
+  "regulatory_density_network": {
+    "sensors": 40,
+    "events_evaluated": 76,
+    "event_recall": 0.39473684210526316,
+    "event_recall_by_kind": {
+      "industrial": 1.0,
+      "burning": 0.42857142857142855,
+      "dust": 0.48,
+      "traffic": 0.19047619047619047
+    },
+    "hourly_detection_rate": 0.34739454094292804,
+    "hotspots_raised": 215,
+    "precision": 0.6790697674418604,
+    "source_attribution_accuracy": 0.9383561643835616,
+    "median_detection_delay_h": 2.5,
+    "false_alarms_per_day": 2.7646076794657763,
+    "recall_at_alert_confidence": 0.25,
+    "precision_at_alert_confidence": 1.0,
+    "false_alarms_per_day_at_alert_confidence": 0.0
+  },
+  "city_average_monitoring": {
+    "sensors": 1,
+    "event_recall": 0.0,
+    "note": "A single city-wide value cannot localise any hotspot"
+  }
+}
