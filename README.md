@@ -7,7 +7,7 @@ spikes 72 hours ahead** across India's economic corridors, and **alerts the righ
 It fuses citizen sensors and photos with satellite and weather data. Cities and states **share predictive models
 without sharing raw data**, through federated learning.
 
-> 🔗 **Live prototype:** _add your Streamlit link here_  ·  🎥 **Demo video:** _add your YouTube / Drive link here_
+>🎥 **Demo video:** _https://youtu.be/V0oPPGoWaFY_
 
 ![Command Center](docs/screenshots/command_center.jpg)
 
@@ -122,13 +122,6 @@ streamlit run app.py
 Optional keys go in `.streamlit/secrets.toml` (see `.streamlit/secrets.toml.example`): `FIRMS_MAP_KEY`,
 `DATA_GOV_IN_API_KEY`, `THINGSPEAK_CHANNEL_ID`, `VAYUSETU_WEBHOOK_URL`. Everything works without them.
 
-## Deploy free on Streamlit Community Cloud
-
-1. Push this folder to a **public** GitHub repository.
-2. Go to <https://share.streamlit.io>, click **Create app**, choose your repo and branch, and set the main file to `app.py`.
-3. Under **Advanced settings**, choose **Python 3.12**. Optionally paste secrets there too.
-4. Click **Deploy**. The first build takes a few minutes, and you get a public `*.streamlit.app` link.
-
 ## REST API, tests and rebuilding
 
 ```bash
@@ -147,11 +140,6 @@ python scripts/export_schemas.py
 Raw inputs: `city_hour.csv` from the Kaggle dataset *Air Quality Data in India (2015–2020)*, compiled from CPCB.
 Boundaries from [datameet/maps](https://github.com/datameet/maps) and
 [datameet/Municipal_Spatial_Data](https://github.com/datameet/Municipal_Spatial_Data).
-
-## Hardware (optional citizen node)
-
-A Raspberry Pi and a Nova **SDS011** sensor (about ₹3,000, USB) running `hardware/sds011_node.py` post readings to
-ThingSpeak, and the app reads them in. See the *Citizen Reports → Connect a real sensor* tab.
 
 ## Project structure
 
